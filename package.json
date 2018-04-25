@@ -1,0 +1,19 @@
+{
+  "name": "neal_portfolio-site",
+  "version": "1.0.0",
+  "description": "## Project purpose The purpose of this project is to create a portfolio showcasing subsequebnt projects created while in the **Front End Nanodegree** program.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.23.7",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}
