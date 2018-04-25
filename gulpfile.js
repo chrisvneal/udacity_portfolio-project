@@ -25,6 +25,7 @@ gulp.task('scss', function() {
       browsers: ['last 2 versions']
     }))
     .pipe(sourcemaps.write(sourcmapFolder))
+    .pipe(gulp.dest(cssFolder))
     .pipe(browserSync.stream())
 });
 
