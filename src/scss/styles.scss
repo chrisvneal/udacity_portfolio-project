@@ -1,3 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background: red;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+}
+
+header {
+  border: 1px solid red; // for testing
+}
+
+
+/* section styles */
+
+section {
+  border: 1px solid lightgray;
 }
