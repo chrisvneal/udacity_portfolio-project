@@ -32,5 +32,22 @@ section {
 }
 
 /* featured sectyion styles */
+.featured-projects {
+  background: red;
+}
+
+.featured-projects__module {
+  width: 400px;
+  border: 3px solid blue;
+}
+
+.featured-projects__module .featured-projects__image {
+  height: 350px;
+}
+
+.featured-projects__module .featured-projects__image img {
+  height: 100%;
+  width: 100%;
+}
 
 /*# sourceMappingURL=maps/styles.css.map */
