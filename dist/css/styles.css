@@ -21,6 +21,10 @@ img {
   max-width: 100%;
 }
 
+figure {
+  margin: 0;
+}
+
 /* global section styles */
 section {
   border: 1px solid lightgray;
@@ -31,18 +35,26 @@ section {
   border: 1px solid red;
 }
 
-/* featured sectyion styles */
+/* featured projects styles */
 .featured-projects {
-  background: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .featured-projects__module {
-  width: 400px;
+  width: 450px;
   border: 3px solid blue;
 }
 
 .featured-projects__module .featured-projects__image {
-  height: 350px;
+  height: 325px;
 }
 
 .featured-projects__module .featured-projects__image img {

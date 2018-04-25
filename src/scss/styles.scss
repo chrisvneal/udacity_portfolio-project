@@ -1,4 +1,5 @@
 /* general styling */
+
 * {
   box-sizing: border-box;
 }
@@ -21,33 +22,39 @@ img {
   max-width: 100%;
 }
 
+figure {
+  margin: 0;
+}
+
+
 /* global section styles */
+
 section {
   border: 1px solid lightgray;
 }
 
+
 /* main section styles */
+
 #main-header {
   border: 1px solid red; // for testing
 }
 
 
+/* featured projects styles */
 
-
-
-/* featured sectyion styles */
 .featured-projects {
-  background: red;
-  // display: flex;
-  // flex-flow: row wrap;
+  // background: red;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
+
 .featured-projects__module {
-  width: 400px;
+  width: 450px;
   border: 3px solid blue;
-
   .featured-projects__image {
-    height: 350px;
-
+    height: 325px;
     img {
       height: 100%;
       width: 100%;
