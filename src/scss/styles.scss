@@ -1,0 +1,37 @@
+/* general styling */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* global section styles */
+section {
+  border: 1px solid lightgray;
+}
+
+/* main section styles */
+#main-header {
+  border: 1px solid red; // for testing
+}
+
+
+
+
+
+/* featured sectyion styles */
