@@ -1,3 +1,4 @@
+/* general styling */
 * {
   box-sizing: border-box;
 }
@@ -15,13 +16,22 @@ p {
   margin-top: 0;
 }
 
-header {
+img {
+  max-width: 100%;
+}
+
+/* global section styles */
+section {
+  border: 1px solid lightgray;
+}
+
+/* main section styles */
+#main-header {
   border: 1px solid red; // for testing
 }
 
 
-/* section styles */
 
-section {
-  border: 1px solid lightgray;
-}
+
+
+/* featured sectyion styles */
