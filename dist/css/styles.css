@@ -7,6 +7,12 @@
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
+  color: #3a3a3a;
+}
+
+.container {
+  max-width: 1800px;
+  margin: 0 auto;
 }
 
 h1,
@@ -15,6 +21,7 @@ h3,
 h4,
 p {
   margin-top: 0;
+  margin-bottom: .85em;
 }
 
 img {
@@ -25,17 +32,33 @@ figure {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #3e77e2;
+  -webkit-transition: color .1s ease-in;
+  transition: color .1s ease-in;
+}
+
+a:hover {
+  color: #81a6ec;
+}
+
 /* global section styles */
 section {
   border: 1px solid lightgray;
+  padding: 20px 0;
 }
 
 /* main section styles */
-#main-header {
-  border: 1px solid red;
+/* featured projects styles */
+.featured p {
+  line-height: 1.8;
 }
 
-/* featured projects styles */
+.featured__header p {
+  width: 50%;
+}
+
 .featured-projects {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -46,20 +69,41 @@ section {
           flex-flow: row wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin: 2.4em 0;
 }
 
 .featured-projects__module {
   width: 450px;
-  border: 3px solid blue;
 }
 
 .featured-projects__module .featured-projects__image {
   height: 325px;
+  margin-bottom: 1.2em;
+  border: 1px solid #e4e1e1;
+  border-radius: 2px;
+  padding: 5px 4px;
+}
+
+.featured-projects__module .featured-projects__image:hover {
+  border-color: lightblue;
 }
 
 .featured-projects__module .featured-projects__image img {
   height: 100%;
   width: 100%;
+}
+
+.featured-projects__module .featured-projects__caption {
+  padding: 0 1px;
+}
+
+.featured-projects__module .featured-projects__caption a {
+  display: inline-block;
+}
+
+.featured-projects__module .featured-projects__caption p {
+  color: #888888;
+  font-size: .95em;
 }
 
 /*# sourceMappingURL=maps/styles.css.map */
