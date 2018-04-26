@@ -49,6 +49,7 @@
 
 .featured-projects__image {
   height: 325px;
+  min-width: 450px;
   margin-bottom: 1.2em;
   border: 1px dashed rgb(228, 225, 225);
   border-radius: $border-radius--global;
@@ -58,7 +59,7 @@
   }
   img {
     height: 100%;
-    width: 100%;
+    // width: 100%;
   }
 }
 

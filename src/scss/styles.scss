@@ -62,11 +62,8 @@ section {
 /* media queries */
 
 @media screen and (max-width: 1440px) {
-  body {
-    background: blue;
-  }
+  // TODO: Make the images and figcaption switch for some (pic on right, caption on left)
   /* featured header styles */
-  /* TODO: Fix these styles for small screens - try to put info side by side and fit 2 at least */
   .featured__header {
     display: flex;
     flex-flow: row wrap;
@@ -81,24 +78,48 @@ section {
   /* featured projects styles */
   .featured-projects {
     display: block;
-    border: 1px solid white;
   }
   /* project module styles */
   .featured-projects__module {
-    // width: 450px;
     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
     width: 100%;
-    // margin: 0 auto 3em;
-    margin-bottom: 3em;
-    margin-right: 9em;
-    // border: 1px solid white;
+    margin-bottom: 2em;
+    figcaption {
+      // width: 60%;
+      flex: 1;
+      // min-width: 370px;
+    }
   }
   .featured-projects__image {
-    width: 450px;
+    width: 35%;
+    margin-right: 3em;
   }
   .featured-projects__caption a:first-child {
-    padding: 1em 0;
+    padding: .30em 0 1em;
   }
 }
 
-// end of media queries
+// end of media querie (max-width: 440)
+@media screen and (max-width: 930px) {
+  .featured-projects__module {
+    display: block;
+    width: 100%;
+  }
+  .featured-projects__image {
+    width: 450px;
+    display: block;
+    margin: 3em 0;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .featured-projects__image {
+    width: 100%;
+    min-width: 100%;
+  }
+}

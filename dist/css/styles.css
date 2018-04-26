@@ -115,6 +115,7 @@ section {
 
 .featured-projects__image {
   height: 325px;
+  min-width: 450px;
   margin-bottom: 1.2em;
   border: 1px dashed #e4e1e1;
   border-radius: 2px;
@@ -127,7 +128,6 @@ section {
 
 .featured-projects__image img {
   height: 100%;
-  width: 100%;
 }
 
 .featured-projects__caption {
@@ -145,11 +145,7 @@ section {
 
 /* media queries */
 @media screen and (max-width: 1440px) {
-  body {
-    background: blue;
-  }
   /* featured header styles */
-  /* TODO: Fix these styles for small screens - try to put info side by side and fit 2 at least */
   .featured__header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -169,22 +165,55 @@ section {
   /* featured projects styles */
   .featured-projects {
     display: block;
-    border: 1px solid white;
   }
   /* project module styles */
   .featured-projects__module {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     width: 100%;
-    margin-bottom: 3em;
-    margin-right: 9em;
+    margin-bottom: 2em;
+  }
+  .featured-projects__module figcaption {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .featured-projects__image {
+    width: 35%;
+    margin-right: 3em;
+  }
+  .featured-projects__caption a:first-child {
+    padding: .30em 0 1em;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .featured-projects__module {
+    display: block;
+    width: 100%;
   }
   .featured-projects__image {
     width: 450px;
+    display: block;
+    margin: 3em 0;
   }
-  .featured-projects__caption a:first-child {
-    padding: 1em 0;
+  .featured-projects__image img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .featured-projects__image {
+    width: 100%;
+    min-width: 100%;
   }
 }
 
