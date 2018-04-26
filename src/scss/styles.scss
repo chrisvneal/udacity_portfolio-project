@@ -67,7 +67,9 @@ section {
   }
 
   .featured-projects {
-    display: block;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
   }
 
   /* project module styles */
