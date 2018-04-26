@@ -1,7 +1,6 @@
 /* general styling */
 
 @import "partials/variables";
-
 * {
   box-sizing: border-box;
 }
@@ -44,7 +43,9 @@ a {
   }
 }
 
+
 /* global layout styles */
+
 .container {
   max-width: 1800px;
   width: 95%;
@@ -56,9 +57,7 @@ section {
   padding: 20px 0;
 }
 
-
 @import "partials/featured-section_styles";
-
 
 /* media queries */
 
@@ -69,5 +68,20 @@ section {
 
   .featured-projects {
     display: block;
+  }
+
+  /* project module styles */
+  .featured-projects__module {
+    width: 450px;
+    // margin: 0 auto 3em;
+    margin-bottom: 3em;
+  }
+}
+
+.featured-projects__caption a {
+  display: block;
+
+  &:first-child {
+    padding: 1em 0;
   }
 }

@@ -148,6 +148,19 @@ section {
   .featured-projects {
     display: block;
   }
+  /* project module styles */
+  .featured-projects__module {
+    width: 450px;
+    margin-bottom: 3em;
+  }
+}
+
+.featured-projects__caption a {
+  display: block;
+}
+
+.featured-projects__caption a:first-child {
+  padding: 1em 0;
 }
 
 /*# sourceMappingURL=maps/styles.css.map */
