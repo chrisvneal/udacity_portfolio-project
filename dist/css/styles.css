@@ -61,7 +61,12 @@ section {
 }
 
 /* featured header styles */
-.featured__header {
+.featured__header .featured__header-image img {
+  width: 85%;
+  border-radius: 2px;
+}
+
+.featured__header-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -71,18 +76,8 @@ section {
           flex-flow: row wrap;
 }
 
-.featured__header .featured__header-info,
-.featured__header .featured__header-image {
+.featured__header-info, .featured__header-image {
   width: 50%;
-}
-
-.featured__header .featured__header-image {
-  text-align: center;
-}
-
-.featured__header .featured__header-image img {
-  width: 85%;
-  border-radius: 2px;
 }
 
 .tech-used ul {

@@ -6,20 +6,24 @@
 
 /* featured header styles */
 .featured__header {
-  display: flex;
-  flex-flow: row wrap;
-  .featured__header-info,
+  // display: flex;
+  // flex-flow: row wrap;
   .featured__header-image {
-    width: 50%;
-  }
-  .featured__header-image {
-    text-align: center;
 
     img {
       width: 85%;
     border-radius: $border-radius--global;
     }
   }
+}
+
+.featured__header-content {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.featured__header-info, .featured__header-image {
+  width: 50%;
 }
 
 .tech-used ul {
