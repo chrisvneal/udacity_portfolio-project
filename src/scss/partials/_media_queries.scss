@@ -58,7 +58,7 @@
 
 @media screen and (max-width: 790px) {
   body {
-    background: green;
+    // background: green;
   }
 
   .featured__header {
@@ -80,8 +80,13 @@
 }
 
 @media screen and (max-width: 480px) {
+
+  .featured-projects {
+    margin-top: 0;
+  }
   .featured-projects__image {
     width: 100%;
     min-width: 100%;
+    margin: 1em 0;
   }
 }
