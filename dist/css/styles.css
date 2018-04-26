@@ -210,6 +210,19 @@ section {
   }
 }
 
+@media screen and (max-width: 790px) {
+  body {
+    background: green;
+  }
+  .featured__header .featured__header-info {
+    width: 100%;
+  }
+  .featured__header .featured__header-image img {
+    width: 100%;
+    border-radius: 2px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .featured-projects__image {
     width: 100%;

@@ -56,6 +56,29 @@
   }
 }
 
+@media screen and (max-width: 790px) {
+  body {
+    background: green;
+  }
+
+  .featured__header {
+    // display: flex;
+    // flex-flow: row wrap;
+    .featured__header-info {
+      width: 100%;
+    }
+    .featured__header-image {
+      // text-align: center;
+  
+      img {
+        width: 100%;
+      border-radius: $border-radius--global;
+      }
+    }
+  }
+
+}
+
 @media screen and (max-width: 480px) {
   .featured-projects__image {
     width: 100%;
