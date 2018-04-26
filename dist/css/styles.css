@@ -105,6 +105,7 @@ section {
   margin: 3em 0 2.5em;
 }
 
+/* project module styles */
 .featured-projects__module {
   width: 450px;
 }
@@ -143,6 +144,9 @@ section {
 @media screen and (max-width: 1440px) {
   body {
     background: blue;
+  }
+  .featured-projects {
+    display: block;
   }
 }
 
