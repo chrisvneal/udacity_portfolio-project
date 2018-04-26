@@ -1,0 +1,64 @@
+/* media queries */
+
+@media screen and (max-width: 1440px) {
+  // TODO: Make the images and figcaption switch for some (pic on right, caption on left)
+  /* featured header styles */
+  .featured__header {
+    display: flex;
+    flex-flow: row wrap;
+    .featured__header-image {
+      text-align: center;
+      img {
+        width: 85%;
+        border-radius: $border-radius--global;
+      }
+    }
+  }
+  /* featured projects styles */
+  .featured-projects {
+    display: block;
+  }
+  /* project module styles */
+  .featured-projects__module {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 2em;
+    figcaption {
+      // width: 60%;
+      flex: 1;
+      // min-width: 370px;
+    }
+  }
+  .featured-projects__image {
+    width: 35%;
+    margin-right: 3em;
+  }
+  .featured-projects__caption a:first-child {
+    padding: .30em 0 1em;
+  }
+}
+
+// end of media querie (max-width: 440)
+@media screen and (max-width: 930px) {
+  .featured-projects__module {
+    display: block;
+    width: 100%;
+  }
+  .featured-projects__image {
+    width: 450px;
+    display: block;
+    margin: 3em 0;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .featured-projects__image {
+    width: 100%;
+    min-width: 100%;
+  }
+}
