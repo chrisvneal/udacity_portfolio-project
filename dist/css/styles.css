@@ -139,4 +139,11 @@ section {
   font-size: .95em;
 }
 
+/* media queries */
+@media screen and (max-width: 1440px) {
+  body {
+    background: blue;
+  }
+}
+
 /*# sourceMappingURL=maps/styles.css.map */

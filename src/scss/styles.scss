@@ -58,3 +58,12 @@ section {
 
 
 @import "partials/featured-section_styles";
+
+
+/* media queries */
+
+@media screen and (max-width: 1440px) {
+  body {
+    background: blue;
+  }
+}
