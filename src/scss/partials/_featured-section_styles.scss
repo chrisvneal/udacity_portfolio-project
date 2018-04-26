@@ -18,7 +18,7 @@
 
     .featured__main-image {
       width: 85%;
-      border-radius: 3px;
+      border-radius: $border-radius--global;
     }
   }  
 }
@@ -47,7 +47,7 @@
   height: 325px;
   margin-bottom: 1.2em;
   border: 1px dashed rgb(228, 225, 225);
-  border-radius: 2px;
+  border-radius: $border-radius--global;
   padding: 5px 4px;
   &:hover {
     border-color: lighten($link-color, 20%);
