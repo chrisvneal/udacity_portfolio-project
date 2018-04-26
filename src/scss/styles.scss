@@ -67,13 +67,10 @@ section {
   }
 
   /* featured header styles */
-  /* TODO: Fix these styles for small screens */
+  /* TODO: Fix these styles for small screens - try to put info side by side and fit 2 at least */
   .featured__header {
     display: flex;
     flex-flow: row wrap;
-    .featured__header-info, .featured__header-image {
-      width: 50%;
-    }
 
     .featured__header-image {
       text-align: center;
@@ -88,16 +85,9 @@ section {
 
 
 
-
-
-
-
-
-
   .featured-projects {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
+    display: block;
+    border: 1px solid white;
   }
 
   /* project module styles */
@@ -106,13 +96,17 @@ section {
     // margin: 0 auto 3em;
     margin-bottom: 3em;
     margin-right: 9em;
+    border: 1px solid white;
+  }
+
+  .featured-projects__caption a {
+    // display: block;
+  
+    &:first-child {
+      // display: block;
+      padding: 1em 0;
+    }
   }
 }
+// end of media queries
 
-.featured-projects__caption a {
-  display: block;
-
-  &:first-child {
-    padding: 1em 0;
-  }
-}

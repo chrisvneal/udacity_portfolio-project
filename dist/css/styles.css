@@ -148,7 +148,7 @@ section {
     background: blue;
   }
   /* featured header styles */
-  /* TODO: Fix these styles for small screens */
+  /* TODO: Fix these styles for small screens - try to put info side by side and fit 2 at least */
   .featured__header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -158,9 +158,6 @@ section {
         -ms-flex-flow: row wrap;
             flex-flow: row wrap;
   }
-  .featured__header .featured__header-info, .featured__header .featured__header-image {
-    width: 50%;
-  }
   .featured__header .featured__header-image {
     text-align: center;
   }
@@ -169,31 +166,19 @@ section {
     border-radius: 2px;
   }
   .featured-projects {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    display: block;
+    border: 1px solid white;
   }
   /* project module styles */
   .featured-projects__module {
     width: 450px;
     margin-bottom: 3em;
     margin-right: 9em;
+    border: 1px solid white;
   }
-}
-
-.featured-projects__caption a {
-  display: block;
-}
-
-.featured-projects__caption a:first-child {
-  padding: 1em 0;
+  .featured-projects__caption a:first-child {
+    padding: 1em 0;
+  }
 }
 
 /*# sourceMappingURL=maps/styles.css.map */
