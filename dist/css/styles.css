@@ -60,7 +60,8 @@ section {
   line-height: 1.8;
 }
 
-.featured .featured__header {
+/* featured header styles */
+.featured__header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -70,15 +71,16 @@ section {
           flex-flow: row wrap;
 }
 
-.featured .featured__header .featured__header-info, .featured .featured__header .featured__header-image {
+.featured__header .featured__header-info,
+.featured__header .featured__header-image {
   width: 50%;
 }
 
-.featured .featured__header .featured__header-image {
+.featured__header .featured__header-image {
   text-align: center;
 }
 
-.featured .featured__header .featured__main-image {
+.featured__header .featured__main-image {
   width: 85%;
   border-radius: 2px;
 }
@@ -144,6 +146,27 @@ section {
 @media screen and (max-width: 1440px) {
   body {
     background: blue;
+  }
+  /* featured header styles */
+  /* TODO: Fix these styles for small screens */
+  .featured__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+  }
+  .featured__header .featured__header-info, .featured__header .featured__header-image {
+    width: 50%;
+  }
+  .featured__header .featured__header-image {
+    text-align: center;
+  }
+  .featured__header .featured__main-image {
+    width: 85%;
+    border-radius: 2px;
   }
   .featured-projects {
     display: -webkit-box;

@@ -66,6 +66,34 @@ section {
     background: blue;
   }
 
+  /* featured header styles */
+  /* TODO: Fix these styles for small screens */
+  .featured__header {
+    display: flex;
+    flex-flow: row wrap;
+    .featured__header-info, .featured__header-image {
+      width: 50%;
+    }
+
+    .featured__header-image {
+      text-align: center;
+    }
+
+    .featured__main-image {
+      width: 85%;
+      border-radius: $border-radius--global;
+    }
+  } 
+
+
+
+
+
+
+
+
+
+
   .featured-projects {
     display: flex;
     flex-flow: row wrap;
