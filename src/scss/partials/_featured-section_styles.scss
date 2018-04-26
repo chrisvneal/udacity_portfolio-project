@@ -14,10 +14,11 @@
   }
   .featured__header-image {
     text-align: center;
-  }
-  .featured__main-image {
-    width: 85%;
+
+    img {
+      width: 85%;
     border-radius: $border-radius--global;
+    }
   }
 }
 
@@ -29,6 +30,9 @@
   }
 }
 
+
+/* featured projects styles */
+
 .featured-projects {
   display: flex;
   flex-flow: row wrap;
@@ -37,7 +41,7 @@
 }
 
 
-/* project module styles */
+/* module styles */
 
 .featured-projects__module {
   width: 450px;

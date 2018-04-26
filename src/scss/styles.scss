@@ -65,48 +65,40 @@ section {
   body {
     background: blue;
   }
-
   /* featured header styles */
   /* TODO: Fix these styles for small screens - try to put info side by side and fit 2 at least */
   .featured__header {
     display: flex;
     flex-flow: row wrap;
-
     .featured__header-image {
       text-align: center;
+      img {
+        width: 85%;
+        border-radius: $border-radius--global;
+      }
     }
-
-    .featured__main-image {
-      width: 85%;
-      border-radius: $border-radius--global;
-    }
-  } 
-
-
-
-
+  }
+  /* featured projects styles */
   .featured-projects {
     display: block;
     border: 1px solid white;
   }
-
   /* project module styles */
   .featured-projects__module {
-    width: 450px;
+    // width: 450px;
+    display: flex;
+    width: 100%;
     // margin: 0 auto 3em;
     margin-bottom: 3em;
     margin-right: 9em;
-    border: 1px solid white;
+    // border: 1px solid white;
   }
-
-  .featured-projects__caption a {
-    // display: block;
-  
-    &:first-child {
-      // display: block;
-      padding: 1em 0;
-    }
+  .featured-projects__image {
+    width: 450px;
+  }
+  .featured-projects__caption a:first-child {
+    padding: 1em 0;
   }
 }
-// end of media queries
 
+// end of media queries
