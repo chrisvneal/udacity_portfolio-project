@@ -5,35 +5,10 @@
 }
 
 /* featured header styles */
-.featured__header {
-  // display: flex;
-  // flex-flow: row wrap;
-  .featured__header-image {
-    text-align: center;
-  }
-  .featured__header-image img {
-    max-height: 280px;
-    width: 75%;
 
-    img {
-      width: 85%;
-    border-radius: $border-radius--global;
-    }
-  }
-}
+  
+ 
 
-.featured__header-content {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.featured__header-info {
-  width: 40%;
-}
-
-.featured__header-image {
-  width: 50%;
-}
 
 .tech-used ul {
   color: darken($figcaption-textcolor, 15%);
@@ -51,6 +26,34 @@
   flex-flow: row wrap;
   justify-content: space-around;
   margin: 3em 0 2.5em;
+}
+
+.featured__header-intro {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+  p {
+    width: 45%;
+    // flex: 1;
+    margin-right: 3em;
+  }
+
+  
+}
+
+.featured__header-image {
+  // flex: 1;
+  width: 50%;
+  // border: 1px dashed blue;
+  margin-bottom: 2em;
+
+  img {
+    width: 100%;
+    display: block;
+    // margin: 0 auto;
+    border-radius: $border-radius--global;
+  }
 }
 
 

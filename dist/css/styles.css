@@ -46,7 +46,7 @@ a:hover {
 
 /* global layout styles */
 .container {
-  max-width: 1800px;
+  max-width: 1700px;
   width: 95%;
   margin: 0 auto;
 }
@@ -61,38 +61,6 @@ section {
 }
 
 /* featured header styles */
-.featured__header .featured__header-image {
-  text-align: center;
-}
-
-.featured__header .featured__header-image img {
-  max-height: 280px;
-  width: 75%;
-}
-
-.featured__header .featured__header-image img img {
-  width: 85%;
-  border-radius: 2px;
-}
-
-.featured__header-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-}
-
-.featured__header-info {
-  width: 40%;
-}
-
-.featured__header-image {
-  width: 50%;
-}
-
 .tech-used ul {
   color: #626262;
   margin: 1em 0;
@@ -114,6 +82,35 @@ section {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   margin: 3em 0 2.5em;
+}
+
+.featured__header-intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.featured__header-intro p {
+  width: 45%;
+  margin-right: 3em;
+}
+
+.featured__header-image {
+  width: 50%;
+  margin-bottom: 2em;
+}
+
+.featured__header-image img {
+  width: 100%;
+  display: block;
+  border-radius: 2px;
 }
 
 /* module styles */
@@ -163,13 +160,6 @@ section {
         -ms-flex-flow: row wrap;
             flex-flow: row wrap;
   }
-  .featured__header .featured__header-image {
-    text-align: center;
-  }
-  .featured__header .featured__header-image img {
-    width: 85%;
-    border-radius: 2px;
-  }
   /* featured projects styles */
   .featured-projects {
     display: block;
@@ -203,6 +193,19 @@ section {
   }
 }
 
+@media screen and (max-width: 1025px) {
+  .featured__header-intro p {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  .featured__header-image {
+    width: 100%;
+  }
+  .featured__header-image img {
+    margin: 0;
+  }
+}
+
 @media screen and (max-width: 930px) {
   .featured-projects__module {
     display: block;
@@ -213,18 +216,11 @@ section {
     display: block;
     margin: 3em 0;
   }
-  .featured-projects__image img {
-    width: 100%;
-  }
 }
 
 @media screen and (max-width: 790px) {
-  .featured__header .featured__header-info {
+  .featured__header-image {
     width: 100%;
-  }
-  .featured__header .featured__header-image img {
-    width: 100%;
-    border-radius: 2px;
   }
 }
 
