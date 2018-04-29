@@ -55,29 +55,20 @@
   }
 
   .featured-projects {
-    margin: 0 0 2.5em;
+    margin: 2.5em 0;
+
+    .featured-projects__image {
+      margin: 2em auto;
+      max-width: 450px;
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
   }
   .featured-projects__module {
     display: block;
     width: 100%;
   }
-  .featured-projects__image {
-    width: 450px;
-    display: block;
-    margin: 3em auto;
-    min-width: 100%;
-    img {
-      width: 100%;
-    }
-  }
-  .featured-projects__caption {
-    width: 90%;
-    margin: 0 auto;
-  }
 }
 
-@media screen and (max-width: 480px) {
-  .featured-projects__image {
-    width: 100%;
-  }
-}
