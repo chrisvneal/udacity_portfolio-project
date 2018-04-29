@@ -88,6 +88,23 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.featured__header h2 {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+
+.featured__header .tech-used {
+  margin: 2em 0;
 }
 
 .featured__header-left {
@@ -98,16 +115,12 @@ section {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.featured__header-left p {
   width: 45%;
-  margin-right: 3em;
 }
 
 .featured__header-right {
-  width: 50%;
   margin-bottom: 2em;
+  width: 700px;
 }
 
 .featured__header-right img {

@@ -30,17 +30,33 @@
 
 .featured__header {
   display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+  h2 {
+    // margin-right: 6em;
+    // border: 1px solid red;
+    width: min-content;
+  }
+
+
+  .tech-used {
+    margin: 2em 0;
+  }
 }
 
 .featured__header-left {
   // display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  // border: 1px solid red;
+    width: 45%;
+  
 
   p {
-    width: 45%;
+    // width: 45%;
     // flex: 1;
-    margin-right: 3em;
+    // margin-right: 3em;
   }
 
   
@@ -48,9 +64,11 @@
 
 .featured__header-right {
   // flex: 1;
-  width: 50%;
+  // width: 50%;
   // border: 1px dashed blue;
   margin-bottom: 2em;
+  // border: 1px solid red;
+  width: 700px;
 
   img {
     width: 100%;
