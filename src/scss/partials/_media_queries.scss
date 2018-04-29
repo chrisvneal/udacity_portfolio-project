@@ -34,11 +34,13 @@
   // featured header
   .featured__header {
     flex-flow: column wrap;
+    margin-bottom: 2em;
     h2 {
       background: none;
       margin-bottom: 1em;
       width: 100%;
       padding: 0;
+      color: darken($featured__main-textcolor, 15%);
     }
     .featured__header-left,
     .featured__header-right {
@@ -53,9 +55,9 @@
   }
   // featured-projects
   .featured-projects {
-    margin: 2.5em 0;
+    margin: 0;
     .featured-projects__image {
-      margin: 2em 0;
+      margin: 0;
       max-width: 450px;
       width: 100%;
       img {
