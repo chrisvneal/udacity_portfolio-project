@@ -228,9 +228,6 @@ section {
 }
 
 @media screen and (max-width: 930px) {
-  body {
-    background: green;
-  }
   .featured__header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -244,6 +241,17 @@ section {
     background: none;
     margin-bottom: 1em;
     width: 100%;
+    padding: 0;
+  }
+  .featured__header .featured__header-left,
+  .featured__header .featured__header-right {
+    width: 100%;
+    margin: 1.2em 0;
+  }
+  .featured__header-right img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
   }
   .featured-projects__module {
     display: block;
@@ -252,7 +260,14 @@ section {
   .featured-projects__image {
     width: 450px;
     display: block;
-    margin: 3em 0;
+    margin: 3em auto;
+  }
+  .featured-projects__image img {
+    width: 100%;
+  }
+  .featured-projects__caption {
+    width: 90%;
+    margin: 0 auto;
   }
 }
 
