@@ -28,8 +28,12 @@
   margin: 3em 0 2.5em;
 }
 
-.featured__header-intro {
+.featured__header {
   display: flex;
+}
+
+.featured__header-left {
+  // display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
 
@@ -42,7 +46,7 @@
   
 }
 
-.featured__header-image {
+.featured__header-right {
   // flex: 1;
   width: 50%;
   // border: 1px dashed blue;
