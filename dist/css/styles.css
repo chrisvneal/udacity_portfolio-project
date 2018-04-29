@@ -25,7 +25,6 @@ img {
 ul {
   margin: 0;
   padding: 0;
-  padding-left: 30px;
   list-style-position: inside;
 }
 
@@ -55,33 +54,9 @@ section {
   padding: 20px 0;
 }
 
-/* featured projects styles */
+/* featured general styling */
 .featured p {
   line-height: 1.8;
-}
-
-/* featured header styles */
-.tech-used ul {
-  color: #626262;
-  margin: 1em 0;
-}
-
-.tech-used ul li {
-  margin-bottom: .55em;
-}
-
-/* featured projects styles */
-.featured-projects {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  margin: 3em 0 2.5em;
 }
 
 .featured__header {
@@ -98,35 +73,56 @@ section {
 }
 
 .featured__header h2 {
+  margin: 0;
   width: -webkit-min-content;
   width: -moz-min-content;
   width: min-content;
 }
 
-.featured__header .tech-used {
+.featured__header-left {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  margin: 0 3em;
+}
+
+.featured__header-left .tech-used {
   margin: 2em 0;
 }
 
-.featured__header-left {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 45%;
+.featured__header-left .tech-used ul {
+  color: #888;
+  margin: 1em 0;
+  padding-left: 30px;
+}
+
+.featured__header-left .tech-used ul li {
+  margin-bottom: .55em;
 }
 
 .featured__header-right {
-  margin-bottom: 2em;
-  width: 700px;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
 }
 
 .featured__header-right img {
   width: 100%;
-  display: block;
   border-radius: 2px;
+}
+
+/************ featured projects styles ************/
+.featured-projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 6em 0 2.5em;
 }
 
 /* module styles */
@@ -138,9 +134,11 @@ section {
   height: 325px;
   min-width: 450px;
   margin-bottom: 1.2em;
-  border: 1px dashed #e4e1e1;
+  border: 2px dashed #f0ecec;
   border-radius: 2px;
-  padding: 5px 4px;
+  padding: 4px;
+  -webkit-transition: border-color 0.2s ease-in;
+  transition: border-color 0.2s ease-in;
 }
 
 .featured-projects__image:hover {

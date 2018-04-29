@@ -1,81 +1,52 @@
-/* featured projects styles */
+/* featured general styling */
 
 .featured p {
   line-height: 1.8;
-}
-
-/* featured header styles */
-
-  
- 
-
-
-.tech-used ul {
-  color: darken($figcaption-textcolor, 15%);
-  margin: 1em 0;
-  li {
-    margin-bottom: .55em;
-  }
-}
-
-
-/* featured projects styles */
-
-.featured-projects {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  margin: 3em 0 2.5em;
 }
 
 .featured__header {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-
+  // border: 1px solid red;
   h2 {
-    // margin-right: 6em;
-    // border: 1px solid red;
+    margin: 0;
     width: min-content;
-  }
-
-
-  .tech-used {
-    margin: 2em 0;
   }
 }
 
 .featured__header-left {
-  // display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  // border: 1px solid red;
-    width: 45%;
-  
-
-  p {
-    // width: 45%;
-    // flex: 1;
-    // margin-right: 3em;
+  flex: 3;
+  margin: 0 3em;
+  .tech-used {
+    margin: 2em 0;
+    & ul {
+      color: $textcolor-light;
+      margin: 1em 0;
+      padding-left: 30px;
+      li {
+        margin-bottom: .55em;
+      }
+    }
   }
-
-  
 }
 
 .featured__header-right {
-  // flex: 1;
-  // width: 50%;
-  // border: 1px dashed blue;
-  margin-bottom: 2em;
-  // border: 1px solid red;
-  width: 700px;
-
+  flex: 2;
   img {
     width: 100%;
-    display: block;
-    // margin: 0 auto;
     border-radius: $border-radius--global;
   }
+}
+
+
+/************ featured projects styles ************/
+
+.featured-projects {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 6em 0 2.5em;
 }
 
 
@@ -89,15 +60,15 @@
   height: 325px;
   min-width: 450px;
   margin-bottom: 1.2em;
-  border: 1px dashed rgb(228, 225, 225);
+  border: 2px dashed rgb(240, 236, 236);
   border-radius: $border-radius--global;
-  padding: 5px 4px;
+  padding: 4px;
+  transition: border-color 0.2s ease-in;
   &:hover {
     border-color: lighten($link-color, 20%);
   }
   img {
     height: 100%;
-    // width: 100%;
   }
 }
 
@@ -107,7 +78,7 @@
     display: inline-block;
   }
   p {
-    color: $figcaption-textcolor;
+    color: $textcolor-light;
     font-size: .95em;
   }
 }

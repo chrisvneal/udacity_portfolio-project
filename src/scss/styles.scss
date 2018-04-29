@@ -8,7 +8,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
-  color: $body-textcolor;
+  color: $textcolor;
 }
 
 h1,
@@ -26,7 +26,6 @@ img {
 ul {
   margin: 0;
   padding: 0;
-  padding-left: 30px;
   list-style-position: inside;
 }
 
@@ -56,6 +55,8 @@ section {
   // border: 1px solid lightgray;
   padding: 20px 0;
 }
+
+
 
 @import "partials/featured-section_styles";
 @import "partials/media_queries";
