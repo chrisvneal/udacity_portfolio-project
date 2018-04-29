@@ -240,6 +240,11 @@ section {
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
   }
+  .featured__header h2 {
+    background: none;
+    margin-bottom: 1em;
+    width: 100%;
+  }
   .featured-projects__module {
     display: block;
     width: 100%;

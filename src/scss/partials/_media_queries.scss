@@ -65,18 +65,47 @@
 
   .featured__header {
     display: flex;
-    flex-flow: column wrap
+    flex-flow: column wrap;
+
+    h2 {
+      background: none;
+      margin-bottom: 1em;
+      width: 100%;
+    }
   }
+
+
+
   .featured-projects__module {
     display: block;
     width: 100%;
   }
+
+
   .featured-projects__image {
     width: 450px;
     display: block;
     margin: 3em 0;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
