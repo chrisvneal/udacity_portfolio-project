@@ -6,7 +6,6 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  margin: 0;
   color: #3a3a3a;
 }
 
@@ -23,13 +22,8 @@ img {
 }
 
 ul {
-  margin: 0;
   padding: 0;
   list-style-position: inside;
-}
-
-figure {
-  margin: 0;
 }
 
 a {
@@ -50,13 +44,17 @@ a:hover {
   margin: 0 auto;
 }
 
-article section {
-  margin: 1.2em 0;
-  padding: 0;
+body, header, main, footer, section, figure, ul {
+  margin: 0;
 }
 
 section {
   padding: 2em 0;
+}
+
+article section {
+  margin: 1.2em 0;
+  padding: 0;
 }
 
 /* featured general styling */
@@ -75,6 +73,7 @@ section {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 6em;
 }
 
 .featured__header h2 {
@@ -130,7 +129,6 @@ section {
           flex-flow: row wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin: 6em 0 2.5em;
 }
 
 /* module styles */
@@ -171,7 +169,6 @@ section {
 
 /* media queries */
 @media screen and (max-width: 1440px) {
-  /* featured header styles */
   .featured__header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -181,7 +178,11 @@ section {
         -ms-flex-flow: row wrap;
             flex-flow: row wrap;
   }
-  /* project module styles */
+  .featured__header-right {
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+  }
   .featured-projects__module {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -203,15 +204,10 @@ section {
   }
   .featured-projects__image {
     width: 450px;
-    margin-right: 2em;
+    margin-right: 5em;
   }
   .featured-projects__caption a:first-child {
     padding: .30em 0 1em;
-  }
-  .featured__header-right {
-    -webkit-box-flex: 3;
-        -ms-flex: 3;
-            flex: 3;
   }
 }
 
@@ -242,7 +238,7 @@ section {
     margin: 2.5em 0;
   }
   .featured-projects .featured-projects__image {
-    margin: 2em auto;
+    margin: 2em 0;
     max-width: 450px;
     width: 100%;
   }

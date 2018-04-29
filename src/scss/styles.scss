@@ -1,13 +1,13 @@
+@import "partials/variables";
+
 /* general styling */
 
-@import "partials/variables";
 * {
   box-sizing: border-box;
 }
 
 body {
   font-family: "Open Sans", sans-serif;
-  margin: 0;
   color: $textcolor;
 }
 
@@ -24,13 +24,8 @@ img {
 }
 
 ul {
-  margin: 0;
   padding: 0;
   list-style-position: inside;
-}
-
-figure {
-  margin: 0;
 }
 
 a {
@@ -43,12 +38,21 @@ a {
 }
 
 
-/* global layout styles */
 
+
+/* global layout styles */
 .container {
   max-width: 1700px;
   width: 95%;
   margin: 0 auto;
+}
+
+body, header, main, footer, section, figure, ul {
+  margin: 0;
+}
+
+section {
+  padding: 2em 0;
 }
 
 article section {
@@ -56,10 +60,6 @@ article section {
   padding: 0;
 }
 
-section {
-  // border: 1px solid lightgray;
-  padding: 2em 0;
-}
-
 @import "partials/featured-section_styles";
 @import "partials/media_queries";
+
