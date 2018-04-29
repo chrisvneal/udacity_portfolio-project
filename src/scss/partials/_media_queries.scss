@@ -35,7 +35,7 @@
 @media screen and (max-width: 930px) {
   .featured__header {
     flex-flow: column wrap;
-    margin-bottom: 2em;
+    // margin-bottom: 2em;
     h2 {
       background: none;
       margin-bottom: 1em;
@@ -52,6 +52,10 @@
     width: 80%;
     display: block;
     margin: 0 auto;
+  }
+
+  .featured-projects {
+    margin: 0 0 2.5em;
   }
   .featured-projects__module {
     display: block;

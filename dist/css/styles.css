@@ -222,7 +222,6 @@ section {
     -webkit-box-direction: normal;
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
-    margin-bottom: 2em;
   }
   .featured__header h2 {
     background: none;
@@ -239,6 +238,9 @@ section {
     width: 80%;
     display: block;
     margin: 0 auto;
+  }
+  .featured-projects {
+    margin: 0 0 2.5em;
   }
   .featured-projects__module {
     display: block;
