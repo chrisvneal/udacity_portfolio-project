@@ -50,8 +50,13 @@ a:hover {
   margin: 0 auto;
 }
 
+article section {
+  margin: 1.2em 0;
+  padding: 0;
+}
+
 section {
-  padding: 20px 0;
+  padding: 2em 0;
 }
 
 /* featured general styling */
@@ -77,6 +82,9 @@ section {
   width: -webkit-min-content;
   width: -moz-min-content;
   width: min-content;
+  padding: 2px 20px 0 6px;
+  background: #95d669;
+  border-radius: 1px;
 }
 
 .featured__header-left {
