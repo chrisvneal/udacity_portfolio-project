@@ -40,8 +40,12 @@ a:hover {
 /* global layout styles */
 .container {
   max-width: 1700px;
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
+}
+
+.inner {
+  padding: 0 1.2em;
 }
 
 body, header, main, footer, section, figure, ul {

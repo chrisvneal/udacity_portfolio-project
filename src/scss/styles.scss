@@ -43,8 +43,13 @@ a {
 /* global layout styles */
 .container {
   max-width: 1700px;
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
+}
+
+.inner {
+  // margin: 0 auto;
+  padding: 0 1.2em;
 }
 
 body, header, main, footer, section, figure, ul {
