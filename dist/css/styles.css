@@ -173,6 +173,9 @@ article section {
 
 /* media queries */
 @media screen and (max-width: 1440px) {
+  body {
+    background: lightblue;
+  }
   .featured__header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -187,7 +190,7 @@ article section {
         -ms-flex: 3;
             flex: 3;
   }
-  .featured-projects__module {
+  .featured-projects__module .inner {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -201,7 +204,7 @@ article section {
     width: 100%;
     margin-bottom: 2em;
   }
-  .featured-projects__module figcaption {
+  .featured-projects__module .inner figcaption {
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;

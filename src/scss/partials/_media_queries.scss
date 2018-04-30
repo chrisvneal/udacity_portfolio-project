@@ -3,6 +3,10 @@
 @media screen and (max-width: 1440px) {
   // TODO: Make the images and figcaption switch for some (pic on right, caption on left)
   // featured header
+
+  body {
+    background: lightblue;
+  }
   .featured__header {
     display: flex;
     flex-flow: row wrap;
@@ -10,8 +14,14 @@
   .featured__header-right {
     flex: 3;
   }
+
+
+
+
+
+
   // featured projects
-  .featured-projects__module {
+  .featured-projects__module .inner {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -29,6 +39,17 @@
     padding: .30em 0 1em;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 930px) {
   // featured header
