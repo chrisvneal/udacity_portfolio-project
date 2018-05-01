@@ -2,9 +2,7 @@
 
 /* general styling */
 
-/* * {
-  box-sizing: border-box;
-}
+/* 
 
 
 
@@ -49,6 +47,10 @@ article section {
 
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: $textcolor;
@@ -91,8 +93,13 @@ a {
   }
 }
 
-@import "partials/featured-section_styles";
-// @import "partials/media_queries";
+
+/* featured section styles */
+@import "partials/featured-header_styles";
+@import "partials/featured-project_styles";
+
+
+@import "partials/media_queries";
 
 
 

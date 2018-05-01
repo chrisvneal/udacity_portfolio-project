@@ -1,34 +1,4 @@
-/* featured section - header styles */
-
-.featured__header {
-  margin-bottom: 2em;
-
-  .featured__header-left {
-    margin-bottom: 2em;
-
-    .tech-used {
-      & ul {
-        color: $textcolor-light;
-        margin: 1em 0;
-        padding-left: 30px;
-        li {
-          margin-bottom: .55em;
-        }
-      }
-    }
-  }
-
-  .featured__header-right {
-    height: 220px;
-
-    img {
-      height: 100%;
-    }
-  }
-}
-
-
-/* featured section - featured project styles */
+/* featured project styles */
 
 .featured-projects {
   display: flex;
@@ -37,12 +7,12 @@
 }
 
 .featured-projects__module {
-  max-width: 450px;
   margin-bottom: 2em;
 }
 
 .featured-projects__image {
   height: 325px;
+  width: 100%;
   margin-bottom: 1.5em;
   border: 2px dashed rgb(240, 236, 236);
   border-radius: $border-radius--global;
