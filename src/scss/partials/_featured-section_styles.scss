@@ -1,6 +1,7 @@
 /* featured general styling */
 
-.featured p {
+
+/* .featured p {
   line-height: 1.8;
 }
 
@@ -42,25 +43,40 @@
   }
 }
 
+*/
+
 
 /************ featured projects styles ************/
 
-.featured-projects {
-  display: flex;
-  flex-flow: row wrap;
-  // justify-content: space-around;
-}
+
 
 
 /* module styles */
 
+/*
+
+
+
+
+
+
+
+*/
+
+.featured-projects {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 .featured-projects__module {
-  width: 450px;
+  max-width: 450px;
+  margin-bottom: 2em;
 }
 
 .featured-projects__image {
   height: 325px;
-  margin-bottom: 1.2em;
+  margin-bottom: 1.5em;
   border: 2px dashed rgb(240, 236, 236);
   border-radius: $border-radius--global;
   padding: 4px;
@@ -70,16 +86,14 @@
   }
   img {
     height: 100%;
+    width: 100%;
   }
 }
 
 .featured-projects__caption {
-  padding: 0 1px;
-  a {
-    display: inline-block;
-  }
   p {
     color: $textcolor-light;
-    font-size: .95em;
+    font-size: 1em;
+    line-height: 2;
   }
 }
