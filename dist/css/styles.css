@@ -42,12 +42,17 @@ article section {
 }
 
 
-// @import "partials/media_queries";
+
 
 */
 body {
   font-family: "Open Sans", sans-serif;
   color: #3a3a3a;
+}
+
+p {
+  line-height: 2;
+  font-size: 1em;
 }
 
 body, header, main, footer, article, section, figure, ul {
@@ -83,61 +88,34 @@ a:hover {
   color: #81a6ec;
 }
 
-/* featured general styling */
-/* .featured p {
-  line-height: 1.8;
-}
-
+/* featured section - header styles */
 .featured__header {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  margin-bottom: 10em;
-  h2 {
-    margin: 0;
-    width: min-content;
-    padding: 2px 20px 0 6px;
-    background: rgb(149, 214, 105);
-    border-radius: 1px;
-  }
+  margin-bottom: 2em;
 }
 
-.featured__header-left {
-  flex: 3;
-  margin: 0 3em;
-  .tech-used {
-    margin: 2em 0;
-    & ul {
-      color: $textcolor-light;
-      margin: 1em 0;
-      padding-left: 30px;
-      li {
-        margin-bottom: .55em;
-      }
-    }
-  }
+.featured__header .featured__header-left {
+  margin-bottom: 2em;
 }
 
-.featured__header-right {
-  flex: 2;
-  img {
-    width: 100%;
-    border-radius: $border-radius--global;
-  }
+.featured__header .featured__header-left .tech-used ul {
+  color: #888;
+  margin: 1em 0;
+  padding-left: 30px;
 }
 
-*/
-/************ featured projects styles ************/
-/* module styles */
-/*
+.featured__header .featured__header-left .tech-used ul li {
+  margin-bottom: .55em;
+}
 
+.featured__header .featured__header-right {
+  height: 220px;
+}
 
+.featured__header .featured__header-right img {
+  height: 100%;
+}
 
-
-
-
-
-*/
+/* featured section - featured project styles */
 .featured-projects {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -176,8 +154,6 @@ a:hover {
 
 .featured-projects__caption p {
   color: #888;
-  font-size: 1em;
-  line-height: 2;
 }
 
 /*# sourceMappingURL=maps/styles.css.map */

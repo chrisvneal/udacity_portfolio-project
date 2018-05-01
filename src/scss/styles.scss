@@ -45,13 +45,18 @@ article section {
 }
 
 
-// @import "partials/media_queries";
+
 
 */
 
 body {
   font-family: "Open Sans", sans-serif;
   color: $textcolor;
+}
+
+p {
+  line-height: 2;
+  font-size: 1em;
 }
 
 body, header, main, footer, article, section, figure, ul {
@@ -87,6 +92,7 @@ a {
 }
 
 @import "partials/featured-section_styles";
+// @import "partials/media_queries";
 
 
 

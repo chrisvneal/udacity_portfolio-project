@@ -1,67 +1,34 @@
-/* featured general styling */
-
-
-/* .featured p {
-  line-height: 1.8;
-}
+/* featured section - header styles */
 
 .featured__header {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  margin-bottom: 10em;
-  h2 {
-    margin: 0;
-    width: min-content;
-    padding: 2px 20px 0 6px;
-    background: rgb(149, 214, 105);
-    border-radius: 1px;
-  }
-}
+  margin-bottom: 2em;
 
-.featured__header-left {
-  flex: 3;
-  margin: 0 3em;
-  .tech-used {
-    margin: 2em 0;
-    & ul {
-      color: $textcolor-light;
-      margin: 1em 0;
-      padding-left: 30px;
-      li {
-        margin-bottom: .55em;
+  .featured__header-left {
+    margin-bottom: 2em;
+
+    .tech-used {
+      & ul {
+        color: $textcolor-light;
+        margin: 1em 0;
+        padding-left: 30px;
+        li {
+          margin-bottom: .55em;
+        }
       }
+    }
+  }
+
+  .featured__header-right {
+    height: 220px;
+
+    img {
+      height: 100%;
     }
   }
 }
 
-.featured__header-right {
-  flex: 2;
-  img {
-    width: 100%;
-    border-radius: $border-radius--global;
-  }
-}
 
-*/
-
-
-/************ featured projects styles ************/
-
-
-
-
-/* module styles */
-
-/*
-
-
-
-
-
-
-
-*/
+/* featured section - featured project styles */
 
 .featured-projects {
   display: flex;
@@ -93,7 +60,5 @@
 .featured-projects__caption {
   p {
     color: $textcolor-light;
-    font-size: 1em;
-    line-height: 2;
   }
 }
