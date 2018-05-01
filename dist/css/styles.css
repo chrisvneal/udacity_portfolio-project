@@ -131,8 +131,6 @@ article section {
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
 }
 
 /* module styles */
@@ -190,19 +188,22 @@ article section {
         -ms-flex: 3;
             flex: 3;
   }
+  .featured-projects__module {
+    width: 450px;
+  }
+  .featured-projects {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
   .featured-projects__module .inner {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-flow: row wrap;
             flex-flow: row wrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    width: 100%;
-    margin-bottom: 2em;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
   .featured-projects__module .inner figcaption {
     -webkit-box-flex: 1;
@@ -210,8 +211,10 @@ article section {
             flex: 1;
   }
   .featured-projects__image {
-    width: 450px;
-    margin-right: 5em;
+    width: 100%;
+  }
+  .featured-projects__image img {
+    width: 100%;
   }
   .featured-projects__caption a:first-child {
     padding: .30em 0 1em;
