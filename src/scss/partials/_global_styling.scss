@@ -1,0 +1,60 @@
+/* global styling */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: $textcolor;
+  background: #fff;
+}
+
+p {
+  line-height: 2;
+  font-size: 1em;
+}
+
+body,
+header,
+main,
+footer,
+article,
+section,
+figure,
+ul {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0 0 1rem;
+}
+
+
+/* global layout */
+
+.inner {
+  // margin: 0 auto;
+  padding: 0 1.2em;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+
+/* links */
+
+a {
+  text-decoration: none;
+  color: $link-color;
+  transition: color .1s ease-in;
+  &:hover {
+    color: lighten($link-color, 15%);
+  }
+}
