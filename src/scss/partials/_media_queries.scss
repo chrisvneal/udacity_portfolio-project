@@ -98,6 +98,25 @@
 */
 
 // TODO: Create responsive styles min-width: 1152px;
+@media screen and (min-width: 1152px) {
+  body {
+    background: plum;
+  }
+
+  .featured__header {
+    display: flex;
+  }
+
+  .featured__header-left {
+    flex: 1;
+  }
+
+  .featured__header-right {
+    flex: 1;
+  }
+
+
+}
 
 
 
@@ -133,10 +152,6 @@
   }
 
   /* featured project styles */
-
-  .featured-projects__module {
-    // border: 1px dashed blue;
-  }
 
   
     .featured-projects__image {
