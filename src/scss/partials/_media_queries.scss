@@ -157,7 +157,7 @@
 
 @media screen and (min-width: 450px) {
   body {
-    background: lightgreen;
+    // background: lightgreen;
   }
   
 
@@ -170,7 +170,7 @@
       }
 
       img {
-      width: $project-module-width;
+      max-width: $project-module-width;
         
       }
 
@@ -180,9 +180,18 @@
   /* featured project styles */
 
   .featured-projects__module {
-    .featured-projects__image {
-      // width: 450px;
-      width: $project-module-width;
-    }
+    // border: 1px dashed blue;
   }
+
+  
+    .featured-projects__image {
+      // width: $project-module-width;
+      max-width: 450px;
+    }
+
+  
+
+
+
+
 }

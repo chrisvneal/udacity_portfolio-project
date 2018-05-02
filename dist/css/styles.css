@@ -289,19 +289,16 @@ a:hover {
 
 */
 @media screen and (min-width: 450px) {
-  body {
-    background: lightgreen;
-  }
   /* featured project styles */
   .featured__header-right .inner {
     padding: 0 1.2em;
   }
   .featured__header-right img {
-    width: 450px;
+    max-width: 450px;
   }
   /* featured project styles */
-  .featured-projects__module .featured-projects__image {
-    width: 450px;
+  .featured-projects__image {
+    max-width: 450px;
   }
 }
 
