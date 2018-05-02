@@ -76,6 +76,11 @@ p {
   padding: 0 1.2em;
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
 /* links */
 a {
   text-decoration: none;
@@ -245,43 +250,6 @@ a:hover {
 }
 
 */
-@media screen and (min-width: 1152px) {
-  body {
-    background: plum;
-  }
-  .featured__header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .featured__header-right {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-  }
-  .featured__header-left {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-  }
-  .about-me {
-    margin-bottom: 2.5em;
-  }
-}
-
-@media screen and (min-width: 880px) {
-  .featured-projects__module .inner {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .featured-projects__module .inner .featured-projects__image {
-    margin-right: 2em;
-    min-width: 450px;
-  }
-}
-
-/* END of  min-width 880px styles */
 @media screen and (min-width: 450px) {
   /* featured project styles */
   .featured__header-right .inner {
@@ -297,5 +265,49 @@ a:hover {
 }
 
 /* END of  min-width 450px styles */
+@media screen and (min-width: 880px) {
+  .featured-projects__module .inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .featured-projects__module .inner .featured-projects__image {
+    margin-right: 2em;
+    min-width: 450px;
+  }
+}
+
+/* END of  min-width 880px styles */
+@media screen and (min-width: 1152px) {
+  .featured__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .featured__header-left {
+    width: 55%;
+    margin-right: 3rem;
+  }
+  .featured__header-right {
+    padding-top: 50px;
+    width: 450px;
+  }
+  .featured__header-right .inner {
+    padding: 0;
+  }
+  .featured__header-right img {
+    height: 250px;
+    float: right;
+    padding-right: 1.2em;
+  }
+  .about-me {
+    margin-bottom: 2.5em;
+  }
+}
+
+/* END of  min-width 1152px styles */
 
 /*# sourceMappingURL=maps/styles.css.map */
