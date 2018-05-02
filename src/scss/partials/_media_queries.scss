@@ -1,218 +1,87 @@
-/* media queries */
-/*
-
-@media screen and (max-width: 1440px) {
-  // TODO: Make the images and figcaption switch for some (pic on right, caption on left)
-  // featured header
-
-  body {
-    background: lightblue;
-  }
-  .featured__header {
-    display: flex;
-    flex-flow: row wrap;
-  }
-  .featured__header-right {
-    flex: 3;
-  }
-
-  .featured-projects__module {
-    width: $project-module-width;
-  }
-
-
-
-
-
-
-  // featured projects
-
-  .featured-projects {
-    justify-content: space-between;
-  }
-  .featured-projects__module .inner {
-    // display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    // width: 100%;
-    // margin-bottom: 2em;
-    figcaption {
-      flex: 1;
-    }
-  }
-
-
-
-
-  .featured-projects__image {
-    width: 100%;
-    // margin-right: 5em;
-
-    img {
-      width: 100%;
-    }
-  }
-  .featured-projects__caption a:first-child {
-    padding: .30em 0 1em;
-  }
-}
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-/*
-@media screen and (max-width: 930px) {
-  // featured header
-  .featured__header {
-    flex-flow: column wrap;
-    margin-bottom: 2em;
-    h2 {
-      background: none;
-      margin-bottom: 1em;
-      width: 100%;
-      padding: 0;
-      color: darken($featured__main-textcolor, 15%);
-    }
-    .featured__header-left,
-    .featured__header-right {
-      width: 100%;
-      margin: 1.2em 0;
-    }
-  }
-  .featured__header-right img {
-    width: 80%;
-    display: block;
-    margin: 0 auto;
-  }
-}
-
-*/
-
-
-
-
-
-
-
-
+// media queries
+// TODO: Make the images and figcaption switch for some (pic on right, caption on left)
 @media screen and (min-width: 450px) {
-
-  /* featured project styles */
+  /* featured header styles */
   .featured__header-right {
-
-      .inner {
-        padding: 0 1.2em;
-      }
-
-      img {
-      max-width: $project-module-width;
-      // width: $project-module-width;        
-              
-      }
-  }
-
-  /* featured project styles */
-
-  
-    .featured-projects__image {
-      max-width: $good-pic-width;
+    .inner {
+      padding: 0 1.2em;
     }
+    img {
+      max-width: $project-module-width;
+    }
+  }
+  /* featured project styles */
+  .featured-projects__image {
+    max-width: $good-pic-width;
+  }
 }
+
+
 /* END of  min-width 450px styles */
 
 @media screen and (min-width: 880px) {
-
   .featured-projects__module .inner {
     display: flex;
-
     .featured-projects__image {
-      margin-right: 2em;
+      margin-right: 4em;
       min-width: $good-pic-width;
     }
   }
 }
 
+
 /* END of  min-width 880px styles */
 
-
 @media screen and (min-width: 1152px) {
-
-  .featured__header {
-    display: flex;
-    justify-content: space-between;
-    // align-items: stretch;
-  }
-
-  
-
-  .featured__header-left {
-    // flex: 1;
-    width: 55%;
-    margin-right: 3rem;
-    // border: 1px solid red;
-   }
-
-   .featured__header-right {
-     padding-top: 50px;
-    // border: 1px dashed red;
-    // flex: 1;
-    width: $good-pic-width;
-
-    .inner {
-      padding: 0;
-    }
-
-    img {
-      height: 250px;
-      float: right;
-      // max-width: 500px;
-      padding-right: 1.2em;
-    }
-    
-   }
-
+  /* .about-me section */
   .about-me {
     margin-bottom: 2.5em;
   }
+  /* featured header styles */
+  .featured__header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .featured__header-left {
+    width: 55%;
+    margin-right: 3rem;
+  }
+  .featured__header-right {
+    padding-top: 50px;
+    width: $good-pic-width;
+    .inner {
+      padding: 0;
+    }
+    img {
+      height: 250px;
+      float: right;
+      padding-right: 1.2em;
+    }
+  }
 
-
+  .featured-projects__caption p {
+    width: 80%;
+  }
 }
+
+
 /* END of  min-width 1152px styles */
 
 @media screen and (min-width: 1440px) {
-
   .featured-projects {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
   }
-
   .featured-projects__module {
     width: $good-pic-width;
   }
-
-
   .featured-projects__module .inner {
     display: block;
     padding: 0;
     .featured-projects__image {
-      // margin-right: 2em;
       min-width: $good-pic-width;
-      // margin: 0;
     }
-    
   }
-
-  
-
 }

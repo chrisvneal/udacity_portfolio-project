@@ -1,48 +1,4 @@
-/* general styling */
-/* 
-
-
-
-
-
-img {
-  max-width: 100%;
-}
-
-ul {
-  padding: 0;
-  list-style-position: inside;
-}
-
-
-
-
-*/
-/* global layout styles */
-/*
-.container {
-  max-width: 1700px;
-  width: 100%;
-  margin: 0 auto;
-}
-
-
-
-
-
-section {
-  padding: 2em 0;
-}
-
-article section {
-  margin: 1.2em 0;
-  padding: 0;
-}
-
-
-
-
-*/
+/* global styling */
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -59,7 +15,14 @@ p {
   font-size: 1em;
 }
 
-body, header, main, footer, article, section, figure, ul {
+body,
+header,
+main,
+footer,
+article,
+section,
+figure,
+ul {
   margin: 0;
 }
 
@@ -164,94 +127,8 @@ a:hover {
 }
 
 /* media queries */
-/*
-
-@media screen and (max-width: 1440px) {
-  // TODO: Make the images and figcaption switch for some (pic on right, caption on left)
-  // featured header
-
-  body {
-    background: lightblue;
-  }
-  .featured__header {
-    display: flex;
-    flex-flow: row wrap;
-  }
-  .featured__header-right {
-    flex: 3;
-  }
-
-  .featured-projects__module {
-    width: $project-module-width;
-  }
-
-
-
-
-
-
-  // featured projects
-
-  .featured-projects {
-    justify-content: space-between;
-  }
-  .featured-projects__module .inner {
-    // display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    // width: 100%;
-    // margin-bottom: 2em;
-    figcaption {
-      flex: 1;
-    }
-  }
-
-
-
-
-  .featured-projects__image {
-    width: 100%;
-    // margin-right: 5em;
-
-    img {
-      width: 100%;
-    }
-  }
-  .featured-projects__caption a:first-child {
-    padding: .30em 0 1em;
-  }
-}
-
-*/
-/*
-@media screen and (max-width: 930px) {
-  // featured header
-  .featured__header {
-    flex-flow: column wrap;
-    margin-bottom: 2em;
-    h2 {
-      background: none;
-      margin-bottom: 1em;
-      width: 100%;
-      padding: 0;
-      color: darken($featured__main-textcolor, 15%);
-    }
-    .featured__header-left,
-    .featured__header-right {
-      width: 100%;
-      margin: 1.2em 0;
-    }
-  }
-  .featured__header-right img {
-    width: 80%;
-    display: block;
-    margin: 0 auto;
-  }
-}
-
-*/
 @media screen and (min-width: 450px) {
-  /* featured project styles */
+  /* featured header styles */
   .featured__header-right .inner {
     padding: 0 1.2em;
   }
@@ -272,13 +149,18 @@ a:hover {
     display: flex;
   }
   .featured-projects__module .inner .featured-projects__image {
-    margin-right: 2em;
+    margin-right: 4em;
     min-width: 450px;
   }
 }
 
 /* END of  min-width 880px styles */
 @media screen and (min-width: 1152px) {
+  /* .about-me section */
+  .about-me {
+    margin-bottom: 2.5em;
+  }
+  /* featured header styles */
   .featured__header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -303,8 +185,8 @@ a:hover {
     float: right;
     padding-right: 1.2em;
   }
-  .about-me {
-    margin-bottom: 2.5em;
+  .featured-projects__caption p {
+    width: 80%;
   }
 }
 
