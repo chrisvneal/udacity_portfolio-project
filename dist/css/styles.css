@@ -245,49 +245,19 @@ a:hover {
 }
 
 */
-/*
-
-
-
-
-
-
-
 @media screen and (min-width: 880px) {
-
   .featured-projects__module .inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-
-    .featured-projects__image {
-      margin-right: 2em;
-      min-width: 450px;
-    }
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .featured-projects__module .inner .featured-projects__image {
+    margin-right: 2em;
+    min-width: 450px;
+  }
 }
 
-*/
+/* END of  min-width 880px styles */
 @media screen and (min-width: 450px) {
   /* featured project styles */
   .featured__header-right .inner {
@@ -301,5 +271,7 @@ a:hover {
     max-width: 450px;
   }
 }
+
+/* END of  min-width 450px styles */
 
 /*# sourceMappingURL=maps/styles.css.map */
