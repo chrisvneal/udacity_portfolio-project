@@ -78,7 +78,7 @@ p {
 
 .container {
   margin: 0 auto;
-  max-width: 1440px;
+  max-width: 1600px;
 }
 
 /* links */
@@ -309,5 +309,30 @@ a:hover {
 }
 
 /* END of  min-width 1152px styles */
+@media screen and (min-width: 1440px) {
+  .featured-projects {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .featured-projects__module {
+    width: 450px;
+  }
+  .featured-projects__module .inner {
+    display: block;
+    padding: 0;
+  }
+  .featured-projects__module .inner .featured-projects__image {
+    min-width: 450px;
+  }
+}
 
 /*# sourceMappingURL=maps/styles.css.map */

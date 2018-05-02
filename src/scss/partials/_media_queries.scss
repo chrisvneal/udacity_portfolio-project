@@ -124,7 +124,7 @@
 
   
     .featured-projects__image {
-      max-width: 450px;
+      max-width: $good-pic-width;
     }
 }
 /* END of  min-width 450px styles */
@@ -136,7 +136,7 @@
 
     .featured-projects__image {
       margin-right: 2em;
-      min-width: 450px;
+      min-width: $good-pic-width;
     }
   }
 }
@@ -165,7 +165,7 @@
      padding-top: 50px;
     // border: 1px dashed red;
     // flex: 1;
-    width: 450px;
+    width: $good-pic-width;
 
     .inner {
       padding: 0;
@@ -187,3 +187,32 @@
 
 }
 /* END of  min-width 1152px styles */
+
+@media screen and (min-width: 1440px) {
+
+  .featured-projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .featured-projects__module {
+    width: $good-pic-width;
+  }
+
+
+  .featured-projects__module .inner {
+    display: block;
+    padding: 0;
+    .featured-projects__image {
+      // margin-right: 2em;
+      min-width: $good-pic-width;
+      // margin: 0;
+    }
+    
+  }
+
+  
+
+}
