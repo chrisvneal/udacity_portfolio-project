@@ -98,7 +98,35 @@
 */
 
 
+@media screen and (min-width: 1152px) {
+  body {
+    background: plum;
+  }
 
+<<<<<<< HEAD
+=======
+  .featured__header {
+    display: flex;
+  }
+
+  .featured__header-right {
+   flex: 1; 
+  }
+
+  .featured__header-left {
+    flex: 1; 
+   }
+
+  .about-me {
+    margin-bottom: 2.5em;
+  }
+
+
+}
+
+
+
+>>>>>>> responsive_fix
 
 @media screen and (min-width: 880px) {
 
@@ -131,10 +159,6 @@
   }
 
   /* featured project styles */
-
-  .featured-projects__module {
-    // border: 1px dashed blue;
-  }
 
   
     .featured-projects__image {

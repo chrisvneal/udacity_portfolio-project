@@ -68,7 +68,7 @@ h2,
 h3,
 h4,
 p {
-  margin: 0 0 1em;
+  margin: 0 0 1rem;
 }
 
 /* global layout */
@@ -245,6 +245,33 @@ a:hover {
 }
 
 */
+<<<<<<< HEAD
+=======
+@media screen and (min-width: 1152px) {
+  body {
+    background: plum;
+  }
+  .featured__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .featured__header-right {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .featured__header-left {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .about-me {
+    margin-bottom: 2.5em;
+  }
+}
+
+>>>>>>> responsive_fix
 @media screen and (min-width: 880px) {
   .featured-projects__module .inner {
     display: -webkit-box;
