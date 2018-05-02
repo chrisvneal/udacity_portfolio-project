@@ -99,18 +99,6 @@
 
 
 
-  
-
-
-
-
-/*
-
-
-
-
-
-
 
 @media screen and (min-width: 880px) {
 
@@ -122,48 +110,15 @@
       min-width: 450px;
     }
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
-*/
-
-
-
-
-
-
+/* END of  min-width 880px styles */
 
 
 @media screen and (min-width: 450px) {
-  body {
-    // background: lightgreen;
-  }
-  
 
   /* featured project styles */
   .featured__header-right {
-      // width: 450px; 
 
       .inner {
         padding: 0 1.2em;
@@ -173,8 +128,6 @@
       max-width: $project-module-width;
         
       }
-
-
   }
 
   /* featured project styles */
@@ -185,13 +138,7 @@
 
   
     .featured-projects__image {
-      // width: $project-module-width;
       max-width: 450px;
     }
-
-  
-
-
-
-
 }
+/* END of  min-width 450px styles */
