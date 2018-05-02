@@ -54,6 +54,7 @@ article section {
 body {
   font-family: "Open Sans", sans-serif;
   color: $textcolor;
+  background: #fff;
 }
 
 p {
@@ -71,11 +72,7 @@ h3,
 h4,
 p {
   margin: 0 0 1em;
-}
-
-img {
-  max-width: 100%;
-}
+} 
 
 /* global layout */
 .inner {
