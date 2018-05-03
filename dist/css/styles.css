@@ -154,6 +154,12 @@ a:hover {
   }
 }
 
+@media screen and (min-width: 950px) {
+  .about-me p {
+    width: 75%;
+  }
+}
+
 /* END of  min-width 880px styles */
 @media screen and (min-width: 1152px) {
   /* .about-me section */
