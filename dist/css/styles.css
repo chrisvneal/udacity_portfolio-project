@@ -60,9 +60,8 @@ a:hover {
   width: 210px;
   height: 200px;
   border-radius: 100%;
-  margin: 0 auto;
   display: block;
-  margin-bottom: 2em;
+  margin-bottom: 1em auto 2em;
 }
 
 /* featured section styles */
