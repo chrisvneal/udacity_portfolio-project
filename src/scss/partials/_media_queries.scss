@@ -37,6 +37,9 @@
 /* END of  min-width 880px styles */
 
 @media screen and (min-width: 1152px) {
+  body {
+    background: lightblue;
+  }
   /* .about-me section */
   .about-me {
     margin-bottom: 2.5em;

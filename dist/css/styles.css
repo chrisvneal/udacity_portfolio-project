@@ -56,6 +56,15 @@ a:hover {
   color: #81a6ec;
 }
 
+.profile-pic {
+  width: 210px;
+  height: 200px;
+  border-radius: 100%;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 2em;
+}
+
 /* featured section styles */
 /* featured section - header styles */
 .featured__header {
@@ -156,6 +165,9 @@ a:hover {
 
 /* END of  min-width 880px styles */
 @media screen and (min-width: 1152px) {
+  body {
+    background: lightblue;
+  }
   /* .about-me section */
   .about-me {
     margin-bottom: 2.5em;

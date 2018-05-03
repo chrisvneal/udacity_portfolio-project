@@ -58,3 +58,12 @@ a {
     color: lighten($link-color, 15%);
   }
 }
+
+.profile-pic {
+  width: 210px;
+  height: 200px;
+  border-radius: 100%;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 2em;
+}
