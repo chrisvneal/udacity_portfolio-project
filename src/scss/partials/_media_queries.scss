@@ -29,6 +29,10 @@
   }
 }
 
+@media screen and (min-width: 950px) {
+  
+}
+
 
 /* END of  min-width 880px styles */
 
@@ -36,6 +40,10 @@
   /* .about-me section */
   .about-me {
     margin-bottom: 2.5em;
+
+     p {
+      width: 50%;
+    }
   }
   /* featured header styles */
   .featured__header {

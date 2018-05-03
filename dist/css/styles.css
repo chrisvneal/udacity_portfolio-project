@@ -160,6 +160,9 @@ a:hover {
   .about-me {
     margin-bottom: 2.5em;
   }
+  .about-me p {
+    width: 50%;
+  }
   /* featured header styles */
   .featured__header {
     display: -webkit-box;
