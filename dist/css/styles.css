@@ -215,6 +215,9 @@ a:hover {
   .featured-projects__module .inner .featured-projects__image {
     min-width: 450px;
   }
+  .featured-projects__caption p {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=maps/styles.css.map */
