@@ -61,7 +61,7 @@ a:hover {
   height: 200px;
   border-radius: 100%;
   display: block;
-  margin-bottom: 1em auto 2em;
+  margin: 1em auto 2em;
 }
 
 /* featured section styles */
