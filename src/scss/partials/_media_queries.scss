@@ -18,19 +18,21 @@
 
 @media screen and (min-width: 645px) {
   body {
-  background: lightblue;    
+    // background: lightblue;  
   }
-
-  .about-me .inner {  
-    .profile-pic {
-      width: 210px;
-      height: 200px;
-      border-radius: 100%;
-      display: inline-block;
-      margin: 1em 0 2em;
+  .about-me {
+    margin-bottom: 2em;
+    .inner {
+      flex-direction: row;
+      .profile-pic {
+        width: 210px;
+        height: 200px;
+        border-radius: 100%;
+        display: inline-block;
+        margin: 1em 5em 2em 0;
+      }
     }
   }
-
 }
 
 
@@ -51,15 +53,11 @@
 
 @media screen and (min-width: 1152px) {
   body {
-    background: lightblue;
+    // background: lightblue;
   }
-  /* .about-me section */
-  .about-me {
-    margin-bottom: 2.5em;
 
-     p {
-      // width: 50%;
-    }
+  .about-me p {
+    width: 60%;
   }
   /* featured header styles */
   .featured__header {
@@ -82,7 +80,6 @@
       padding-right: 1.2em;
     }
   }
-
   .featured-projects__caption p {
     width: 80%;
   }
@@ -108,7 +105,6 @@
       min-width: $good-pic-width;
     }
   }
-
   .featured-projects__caption p {
     width: 100%;
   }

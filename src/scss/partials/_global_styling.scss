@@ -59,6 +59,22 @@ a {
   }
 }
 
+blockquote {
+  border-left: 6px solid #6e8063;
+  padding-left: 20px;
+  margin-left: 1.5em;
+
+  p {
+    color: $textcolor-light;
+    font-style: italic;
+  }
+
+  .author {
+    text-decoration: underline;
+    font-style: italic;
+  }
+}
+
 .about-me .inner {
   display: flex;
   flex-direction: column;
