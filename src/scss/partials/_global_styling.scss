@@ -59,10 +59,25 @@ a {
   }
 }
 
-.profile-pic {
-  width: 210px;
-  height: 200px;
-  border-radius: 100%;
-  display: block;
-  margin: 1em auto 2em;
+.about-me .inner {
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    order: 1;
+  }
+
+  .profile-pic {
+    width: 210px;
+    height: 200px;
+    border-radius: 100%;
+    display: block;
+    margin: 1em auto 2em;
+    order: 0;
+  }
+
+  p {
+    order: 1;
+  }
 }
+
