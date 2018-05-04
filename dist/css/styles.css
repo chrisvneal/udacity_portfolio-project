@@ -27,8 +27,8 @@ ul {
 }
 
 #main-header {
-  padding: 1em 0 2em;
-  margin-bottom: 2em;
+  padding: 1em 0 1em;
+  margin-bottom: 1em;
   text-align: center;
 }
 
@@ -64,10 +64,11 @@ a:hover {
 
 blockquote {
   border-left: 6px solid #6e8063;
-  padding-left: 20px;
-  margin: 1.3em 0;
+  margin: 2.6em 0;
   background: rgba(218, 200, 177, 0.2);
   padding: 20px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 blockquote p {
@@ -237,13 +238,26 @@ blockquote .author {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .about-me .inner .profile-pic {
     width: 210px;
     height: 200px;
     border-radius: 100%;
     display: inline-block;
-    margin: 1em 5em 2em 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .about-me .inner .about-content {
+    width: 55%;
+  }
+  .about-me .inner .about-content p {
+    width: 100%;
+  }
+  .about-me .inner .about-content blockquote {
+    margin-left: 3em;
   }
 }
 

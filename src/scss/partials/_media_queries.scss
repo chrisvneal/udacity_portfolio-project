@@ -17,6 +17,9 @@
 }
 
 @media screen and (min-width: 645px) {
+  body {
+    // background: lightblue;
+  }
   #main-header {
     text-align: left;
   }
@@ -24,12 +27,31 @@
     margin-bottom: 2em;
     .inner {
       flex-direction: row;
+      justify-content: space-between;
       .profile-pic {
         width: 210px;
         height: 200px;
         border-radius: 100%;
         display: inline-block;
-        margin: 1em 5em 2em 0;
+        // margin: 1em 5em 2em 0;
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      .about-content {
+        // flex: 2;
+        width: 55%;
+        // border: 1px dashed crimson;
+        p {
+          width: 100%;
+        }
+
+        blockquote {
+          margin-left: 3em;
+          // border-top-left-radius: 30px;
+          // border-bottom-right-radius: 30px;
+        }
+        
       }
     }
   }
@@ -50,6 +72,15 @@
 
 
 /* END of  min-width 880px styles */
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 1152px) {
   body {
