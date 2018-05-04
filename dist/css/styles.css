@@ -107,6 +107,33 @@ blockquote .author {
           order: 1;
 }
 
+/* social icons */
+.social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: #e1e1e1;
+  padding: 1em 0;
+  border-radius: 1px;
+  margin: 0 auto 2em;
+}
+
+.social-icons a {
+  color: inherit;
+  -webkit-transition: opacity .12s ease-in;
+  transition: opacity .12s ease-in;
+}
+
+.social-icons a:hover {
+  opacity: .60;
+}
+
+.social-icons .icon {
+  font-size: 3rem;
+}
+
 /* featured section styles */
 /* featured section - header styles */
 .featured__header {
@@ -289,6 +316,9 @@ blockquote .author {
   }
   .featured-projects__caption p {
     width: 100%;
+  }
+  .social-icons {
+    width: 90%;
   }
 }
 

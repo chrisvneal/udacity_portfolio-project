@@ -65,12 +65,10 @@ blockquote {
   margin: 1.3em 0;
   background: rgba(218, 200, 177, .20);
   padding: 20px;
-
   p {
     color: $textcolor-light;
     font-style: italic;
   }
-
   .author {
     text-decoration: underline;
     font-style: italic;
@@ -80,11 +78,9 @@ blockquote {
 .about-me .inner {
   display: flex;
   flex-direction: column;
-
   h2 {
     order: 1;
   }
-
   .profile-pic {
     width: 210px;
     height: 200px;
@@ -93,9 +89,31 @@ blockquote {
     margin: 1em auto 2em;
     order: 0;
   }
-
   p {
     order: 1;
   }
 }
 
+
+/* social icons */
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  background: lighten($textcolor-light, 35%);
+  padding: 1em 0;
+  border-radius: 1px;
+  margin: 0 auto 2em;
+  a {
+    color: inherit;
+    transition: opacity .12s ease-in;
+    &:hover {
+      opacity: .60;
+    }
+  }
+  .icon {
+    // color: red;
+    font-size: 3rem;
+    // border: 1px solid red;
+  }
+}
