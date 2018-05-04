@@ -18,8 +18,27 @@
 
 @media screen and (min-width: 645px) {
   body {
-  background: lightblue;
-    
+  background: lightblue;    
+  }
+
+  .about-me .inner {
+  
+    h2 {
+      order: 1;
+    }
+  
+    .profile-pic {
+      width: 210px;
+      height: 200px;
+      border-radius: 100%;
+      display: inline-block;
+      margin: 1em 0 2em;
+      order: 0;
+    }
+  
+    p {
+      order: 1;
+    }
   }
 
 }
@@ -35,10 +54,6 @@
       min-width: $good-pic-width;
     }
   }
-}
-
-@media screen and (min-width: 950px) {
-  
 }
 
 
