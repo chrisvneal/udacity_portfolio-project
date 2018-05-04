@@ -21,23 +21,13 @@
   background: lightblue;    
   }
 
-  .about-me .inner {
-  
-    h2 {
-      order: 1;
-    }
-  
+  .about-me .inner {  
     .profile-pic {
       width: 210px;
       height: 200px;
       border-radius: 100%;
       display: inline-block;
       margin: 1em 0 2em;
-      order: 0;
-    }
-  
-    p {
-      order: 1;
     }
   }
 
