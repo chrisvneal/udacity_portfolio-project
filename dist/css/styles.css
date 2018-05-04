@@ -26,6 +26,12 @@ ul {
   margin: 0;
 }
 
+#main-header {
+  padding: 1em 0 2em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
 h1,
 h2,
 h3,
@@ -114,7 +120,7 @@ blockquote .author {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  background: #e1e1e1;
+  background: #d5d5d5;
   padding: 1em 0;
   border-radius: 1px;
   margin: 0 auto 2em;
@@ -220,6 +226,9 @@ blockquote .author {
 }
 
 @media screen and (min-width: 645px) {
+  #main-header {
+    text-align: left;
+  }
   .about-me {
     margin-bottom: 2em;
   }
@@ -318,7 +327,7 @@ blockquote .author {
     width: 100%;
   }
   .social-icons {
-    width: 90%;
+    width: 95%;
   }
 }
 

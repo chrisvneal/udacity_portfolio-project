@@ -17,8 +17,8 @@
 }
 
 @media screen and (min-width: 645px) {
-  body {
-    // background: lightblue;  
+  #main-header {
+    text-align: left;
   }
   .about-me {
     margin-bottom: 2em;
@@ -114,6 +114,6 @@
   }
 
   .social-icons {
-    width: 90%;
+    width: 95%;
   }
 }

@@ -26,6 +26,13 @@ ul {
   margin: 0;
 }
 
+#main-header {
+  padding: 1em 0 2em;
+  // background: chocolate;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
 h1,
 h2,
 h3,
@@ -100,7 +107,7 @@ blockquote {
 .social-icons {
   display: flex;
   justify-content: space-around;
-  background: lighten($textcolor-light, 35%);
+  background: lighten($textcolor-light, 30%);
   padding: 1em 0;
   border-radius: 1px;
   margin: 0 auto 2em;
