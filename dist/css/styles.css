@@ -56,6 +56,39 @@ a:hover {
   color: #81a6ec;
 }
 
+.about-me .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about-me .inner h2 {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.about-me .inner .profile-pic {
+  width: 210px;
+  height: 200px;
+  border-radius: 100%;
+  display: block;
+  margin: 1em auto 2em;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+}
+
+.about-me .inner p {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
 /* featured section styles */
 /* featured section - header styles */
 .featured__header {
@@ -141,6 +174,12 @@ a:hover {
   }
 }
 
+@media screen and (min-width: 645px) {
+  body {
+    background: lightblue;
+  }
+}
+
 /* END of  min-width 450px styles */
 @media screen and (min-width: 880px) {
   .featured-projects__module .inner {
@@ -154,17 +193,17 @@ a:hover {
   }
 }
 
-@media screen and (min-width: 950px) {
-  .about-me p {
-    width: 75%;
-  }
-}
-
 /* END of  min-width 880px styles */
 @media screen and (min-width: 1152px) {
+  body {
+    background: lightblue;
+  }
   /* .about-me section */
   .about-me {
     margin-bottom: 2.5em;
+  }
+  .about-me p {
+    width: 50%;
   }
   /* featured header styles */
   .featured__header {
