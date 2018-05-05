@@ -50,6 +50,10 @@ p {
   max-width: 1600px;
 }
 
+.about-me__list {
+  margin-bottom: 2em;
+}
+
 /* links */
 a {
   text-decoration: none;
