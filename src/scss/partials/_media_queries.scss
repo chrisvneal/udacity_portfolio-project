@@ -95,7 +95,7 @@
 
 @media screen and (min-width: 1152px) {
   body {
-    background: lighten(lightblue, 9%);
+    // background: lighten(lightblue, 9%);
     // background: lightblue;
   }
 
@@ -104,7 +104,7 @@
     justify-content: space-between;
 
     .profile-pic {
-      margin-right: 2em;
+      margin-right: 3em;
       // width: 100%;
     }
   }
@@ -112,7 +112,7 @@
   .about-me__list {
     // width: 50%;
     // flex: 1;
-    width: 450px;
+    width: 400px;
   }
 
   .about-content {

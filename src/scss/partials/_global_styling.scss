@@ -77,6 +77,7 @@ blockquote {
   padding: 20px;
   border-top-left-radius: 30px;
           border-bottom-right-radius: 30px;
+          max-width: 480px;
   p {
     color: $textcolor-light;
     font-style: italic;
@@ -108,7 +109,7 @@ blockquote {
 
 .about-me__list {
   margin-bottom: 2em;
-  color: $textcolor-light;
+  // color: $textcolor-light;
 
   ul {
 

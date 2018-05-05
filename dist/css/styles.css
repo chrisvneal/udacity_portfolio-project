@@ -69,6 +69,7 @@ blockquote {
   padding: 20px;
   border-top-left-radius: 30px;
   border-bottom-right-radius: 30px;
+  max-width: 480px;
 }
 
 blockquote p {
@@ -116,7 +117,6 @@ blockquote .author {
 
 .about-me__list {
   margin-bottom: 2em;
-  color: #888;
 }
 
 .about-me__list ul {
@@ -284,9 +284,6 @@ blockquote .author {
 
 /* END of  min-width 880px styles */
 @media screen and (min-width: 1152px) {
-  body {
-    background: #d0e9f1;
-  }
   .about-me .inner {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -297,10 +294,10 @@ blockquote .author {
             justify-content: space-between;
   }
   .about-me .inner .profile-pic {
-    margin-right: 2em;
+    margin-right: 3em;
   }
   .about-me__list {
-    width: 450px;
+    width: 400px;
   }
   .about-content {
     -webkit-box-flex: 2;
