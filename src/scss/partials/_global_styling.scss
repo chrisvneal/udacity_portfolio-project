@@ -26,14 +26,6 @@ ul {
   margin: 0;
 }
 
-// TODO: change main header color
-#main-header {
-  padding: 1em 0 1em;
-  // background: chocolate;
-  margin-bottom: 1em;
-  text-align: center;
-}
-
 h1,
 h2,
 h3,
@@ -50,17 +42,13 @@ hr {
 /* global layout */
 
 .inner {
-  // margin: 0 auto;
   padding: 0 1.2em;
 }
 
 .container {
   margin: 0 auto;
   max-width: 1600px;
-
 }
-
-
 
 
 /* links */
@@ -74,23 +62,18 @@ a {
   }
 }
 
-blockquote {
-  border-left: 6px solid #6e8063;
-  margin: 2.6em 0;
-  background: rgba(218, 200, 177, .20);
-  padding: 20px;
-  border-top-left-radius: 30px;
-          border-bottom-right-radius: 30px;
-          max-width: 480px;
-  p {
-    color: $textcolor-light;
-    font-style: italic;
-  }
-  .author {
-    text-decoration: underline;
-    font-style: italic;
-  }
+
+/* main header styles */
+
+#main-header {
+  // TODO: change main header color
+  padding: 1em 0 1em;
+  margin-bottom: 1em;
+  text-align: center;
 }
+
+
+/* about-me section styles */
 
 .about-me .inner {
   display: flex;
@@ -111,32 +94,41 @@ blockquote {
   }
 }
 
+blockquote {
+  border-left: 6px solid #6e8063;
+  margin: 2.6em 0;
+  background: rgba(218, 200, 177, .20);
+  padding: 20px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  max-width: 480px;
+  p {
+    color: $textcolor-light;
+    font-style: italic;
+  }
+  .author {
+    text-decoration: underline;
+    font-style: italic;
+  }
+}
+
 .about-me__list {
-  // margin-bottom: 2em;
-  // color: $textcolor-light;
-
   ul {
-
-  list-style-type: none;
-  padding-left: 0;
+    list-style-type: none;
+    padding-left: 0;
     li {
       margin-bottom: 2em;
       list-style-position: inside;
-
       svg {
         margin-right: .50em;
         font-size: 1.6em;
-        // padding-right: 20px;
       }
     }
-
   }
-
-  
 }
 
 
-/* social icons */
+/* contact section - social icon styles */
 
 .social-icons {
   display: flex;
@@ -153,8 +145,6 @@ blockquote {
     }
   }
   .icon {
-    // color: red;
     font-size: 3rem;
-    // border: 1px solid red;
   }
 }

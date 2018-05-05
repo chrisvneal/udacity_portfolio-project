@@ -26,12 +26,6 @@ ul {
   margin: 0;
 }
 
-#main-header {
-  padding: 1em 0 1em;
-  margin-bottom: 1em;
-  text-align: center;
-}
-
 h1,
 h2,
 h3,
@@ -66,26 +60,14 @@ a:hover {
   color: #81a6ec;
 }
 
-blockquote {
-  border-left: 6px solid #6e8063;
-  margin: 2.6em 0;
-  background: rgba(218, 200, 177, 0.2);
-  padding: 20px;
-  border-top-left-radius: 30px;
-  border-bottom-right-radius: 30px;
-  max-width: 480px;
+/* main header styles */
+#main-header {
+  padding: 1em 0 1em;
+  margin-bottom: 1em;
+  text-align: center;
 }
 
-blockquote p {
-  color: #888;
-  font-style: italic;
-}
-
-blockquote .author {
-  text-decoration: underline;
-  font-style: italic;
-}
-
+/* about-me section styles */
 .about-me .inner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -119,6 +101,26 @@ blockquote .author {
           order: 1;
 }
 
+blockquote {
+  border-left: 6px solid #6e8063;
+  margin: 2.6em 0;
+  background: rgba(218, 200, 177, 0.2);
+  padding: 20px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  max-width: 480px;
+}
+
+blockquote p {
+  color: #888;
+  font-style: italic;
+}
+
+blockquote .author {
+  text-decoration: underline;
+  font-style: italic;
+}
+
 .about-me__list ul {
   list-style-type: none;
   padding-left: 0;
@@ -134,7 +136,7 @@ blockquote .author {
   font-size: 1.6em;
 }
 
-/* social icons */
+/* contact section - social icon styles */
 .social-icons {
   display: -webkit-box;
   display: -ms-flexbox;
