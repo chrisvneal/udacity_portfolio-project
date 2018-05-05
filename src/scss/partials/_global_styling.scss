@@ -56,9 +56,7 @@ p {
 
 }
 
-.about-me__list {
-  margin-bottom: 2em;
-}
+
 
 
 /* links */
@@ -106,6 +104,23 @@ blockquote {
   p {
     order: 1;
   }
+}
+
+.about-me__list {
+  margin-bottom: 2em;
+  color: $textcolor-light;
+
+  ul {
+
+    padding-left: 0;
+    li {
+      margin-bottom: 1.4em;
+      list-style-position: inside;
+    }
+
+  }
+
+  
 }
 
 

@@ -50,10 +50,6 @@ p {
   max-width: 1600px;
 }
 
-.about-me__list {
-  margin-bottom: 2em;
-}
-
 /* links */
 a {
   text-decoration: none;
@@ -116,6 +112,20 @@ blockquote .author {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
+}
+
+.about-me__list {
+  margin-bottom: 2em;
+  color: #888;
+}
+
+.about-me__list ul {
+  padding-left: 0;
+}
+
+.about-me__list ul li {
+  margin-bottom: 1.4em;
+  list-style-position: inside;
 }
 
 /* social icons */
