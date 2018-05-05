@@ -125,8 +125,13 @@ blockquote .author {
 }
 
 .about-me__list ul li {
-  margin-bottom: 1.4em;
+  margin-bottom: 2em;
   list-style-position: inside;
+}
+
+.about-me__list ul li svg {
+  margin-right: .50em;
+  font-size: 1.6em;
 }
 
 /* social icons */
