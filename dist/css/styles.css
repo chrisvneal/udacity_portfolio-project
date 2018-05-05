@@ -292,6 +292,21 @@ blockquote .author {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .about-me .inner .profile-pic {
+    margin-right: 2em;
+  }
+  .about-me__list {
+    width: 450px;
+  }
+  .about-content {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+    margin-right: 2.5em;
   }
   .about-me p {
     width: 60%;
