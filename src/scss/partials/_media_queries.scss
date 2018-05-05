@@ -74,11 +74,13 @@
     flex: 2;
     margin-right: 2.5em;
   }
-  .about-me p {
-    width: 60%;
-  }
-  .about-me blockquote {
-    width: 75%;
+  .about-me {
+    p {
+      width: 60%;
+    }
+    blockquote {
+      width: 75%;
+    }
   }
   /* featured header styles */
   .featured__header {
