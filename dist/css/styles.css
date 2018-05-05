@@ -120,6 +120,7 @@ blockquote .author {
 }
 
 .about-me__list ul {
+  list-style-type: none;
   padding-left: 0;
 }
 
