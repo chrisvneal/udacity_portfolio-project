@@ -68,6 +68,10 @@
 /* END of  min-width 880px styles */
 
 @media screen and (min-width: 1152px) {
+
+  #main-header {
+    margin-bottom: 3.5em;
+  }
   .about-me .inner {
     flex-direction: row;
     justify-content: space-between;

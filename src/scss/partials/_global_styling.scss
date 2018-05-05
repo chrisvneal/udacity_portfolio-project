@@ -57,7 +57,6 @@ a {
   text-decoration: none;
   color: $link-color;
   transition: color .1s ease-in;
-
   &:hover {
     color: lighten($link-color, 15%);
   }
@@ -67,10 +66,22 @@ a {
 /* main header styles */
 
 #main-header {
-  // TODO: change main header color
   padding: 1em 0 1em;
   margin-bottom: 1em;
   text-align: center;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  background: #627d4d;
+  background: -moz-linear-gradient(left, #627d4d 0%, #1f3b08 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #627d4d), color-stop(100%, #1f3b08));
+  background: -webkit-linear-gradient(left, #627d4d 0%, #1f3b08 100%);
+  background: -o-linear-gradient(left, #627d4d 0%, #1f3b08 100%);
+  background: -ms-linear-gradient(left, #627d4d 0%, #1f3b08 100%);
+  background: linear-gradient(to right, #627d4d 0%, #1f3b08 100%);
+
+  .logo {
+    color: white;
+  }
 }
 
 
@@ -79,11 +90,9 @@ a {
 .about-me .inner {
   display: flex;
   flex-direction: column;
-
   h2 {
     order: 1;
   }
-
   .profile-pic {
     width: 210px;
     height: 200px;
@@ -92,7 +101,6 @@ a {
     margin: 1em auto 2em;
     order: 0;
   }
-
   p {
     order: 1;
   }
@@ -106,12 +114,10 @@ blockquote {
   border-top-left-radius: 30px;
   border-bottom-right-radius: 30px;
   max-width: 480px;
-
   p {
     color: $textcolor-light;
     font-style: italic;
   }
-
   .author {
     text-decoration: underline;
     font-style: italic;
@@ -122,11 +128,9 @@ blockquote {
   ul {
     list-style-type: none;
     padding-left: 0;
-
     li {
       margin-bottom: 2em;
       list-style-position: inside;
-
       svg {
         margin-right: .50em;
         font-size: 1.6em;
@@ -145,11 +149,9 @@ blockquote {
   padding: 1em 0;
   border-radius: 1px;
   margin: 0 auto 2em;
-
   a {
     color: inherit;
     transition: opacity .12s ease-in;
-    
     &:hover {
       opacity: .60;
     }

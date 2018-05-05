@@ -65,6 +65,16 @@ a:hover {
   padding: 1em 0 1em;
   margin-bottom: 1em;
   text-align: center;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  background: #627d4d;
+  background: -webkit-gradient(left top, right top, color-stop(0%, #627d4d), color-stop(100%, #1f3b08));
+  background: -webkit-gradient(linear, left top, right top, from(#627d4d), to(#1f3b08));
+  background: linear-gradient(to right, #627d4d 0%, #1f3b08 100%);
+}
+
+#main-header .logo {
+  color: white;
 }
 
 /* about-me section styles */
@@ -292,6 +302,9 @@ blockquote .author {
 
 /* END of  min-width 880px styles */
 @media screen and (min-width: 1152px) {
+  #main-header {
+    margin-bottom: 3.5em;
+  }
   .about-me .inner {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
