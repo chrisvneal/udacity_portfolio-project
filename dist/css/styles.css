@@ -248,13 +248,10 @@ blockquote .author {
     margin-bottom: 2em;
   }
   .about-me .inner {
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .about-me .inner .profile-pic {
     width: 210px;
@@ -264,14 +261,11 @@ blockquote .author {
     margin-left: 0;
     margin-right: 0;
   }
-  .about-me .inner .about-content {
-    width: 55%;
-  }
   .about-me .inner .about-content p {
     width: 100%;
   }
   .about-me .inner .about-content blockquote {
-    margin-left: 3em;
+    margin-left: 1em;
   }
 }
 
@@ -290,6 +284,15 @@ blockquote .author {
 
 /* END of  min-width 880px styles */
 @media screen and (min-width: 1152px) {
+  body {
+    background: #d0e9f1;
+  }
+  .about-me .inner {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
   .about-me p {
     width: 60%;
   }
