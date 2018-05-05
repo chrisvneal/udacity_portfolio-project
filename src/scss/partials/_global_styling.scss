@@ -42,6 +42,10 @@ p {
   margin: 0 0 1rem;
 }
 
+hr {
+  margin: 1.5em 0;
+}
+
 
 /* global layout */
 
@@ -108,7 +112,7 @@ blockquote {
 }
 
 .about-me__list {
-  margin-bottom: 2em;
+  // margin-bottom: 2em;
   // color: $textcolor-light;
 
   ul {

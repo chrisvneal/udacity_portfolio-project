@@ -40,6 +40,10 @@ p {
   margin: 0 0 1rem;
 }
 
+hr {
+  margin: 1.5em 0;
+}
+
 /* global layout */
 .inner {
   padding: 0 1.2em;
@@ -113,10 +117,6 @@ blockquote .author {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
-}
-
-.about-me__list {
-  margin-bottom: 2em;
 }
 
 .about-me__list ul {
