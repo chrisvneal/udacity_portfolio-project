@@ -121,17 +121,17 @@ blockquote .author {
   font-style: italic;
 }
 
-.about-me__list ul {
+.about-me__interests ul {
   list-style-type: none;
   padding-left: 0;
 }
 
-.about-me__list ul li {
+.about-me__interests ul li {
   margin-bottom: 2em;
   list-style-position: inside;
 }
 
-.about-me__list ul li svg {
+.about-me__interests ul li svg {
   margin-right: .50em;
   font-size: 1.6em;
 }
@@ -304,7 +304,7 @@ blockquote .author {
   .about-me .inner .profile-pic {
     margin-right: 3em;
   }
-  .about-me__list {
+  .about-me__interests {
     width: 400px;
   }
   .about-content {

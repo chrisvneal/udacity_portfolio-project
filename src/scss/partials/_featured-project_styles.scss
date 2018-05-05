@@ -18,9 +18,11 @@
   border-radius: $border-radius--global;
   padding: 4px;
   transition: border-color 0.2s ease-in;
+
   &:hover {
     border-color: lighten($link-color, 20%);
   }
+  
   img {
     height: 100%;
     width: 100%;

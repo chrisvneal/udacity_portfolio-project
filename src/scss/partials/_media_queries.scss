@@ -5,9 +5,11 @@
     .inner {
       padding: 0 1.2em;
     }
+
     img {
       max-width: $project-module-width;
     }
+
   }
   /* featured project styles */
   .featured-projects__image {
@@ -19,10 +21,13 @@
   #main-header {
     text-align: left;
   }
+
   .about-me {
     margin-bottom: 2em;
+
     .inner {
       flex-direction: column;
+
       .profile-pic {
         width: 210px;
         height: 200px;
@@ -31,10 +36,12 @@
         margin-left: 0;
         margin-right: 0;
       }
+
       .about-content {
         p {
           width: 100%;
         }
+
         blockquote {
           margin-left: 1em;
         }
@@ -49,6 +56,7 @@
 @media screen and (min-width: 880px) {
   .featured-projects__module .inner {
     display: flex;
+
     .featured-projects__image {
       margin-right: 4em;
       min-width: $good-pic-width;
@@ -63,17 +71,21 @@
   .about-me .inner {
     flex-direction: row;
     justify-content: space-between;
+
     .profile-pic {
       margin-right: 3em;
     }
   }
-  .about-me__list {
+
+  .about-me__interests {
     width: 400px;
   }
+
   .about-content {
     flex: 2;
     margin-right: 2.5em;
   }
+
   .about-me {
     p {
       width: 60%;
@@ -87,22 +99,27 @@
     display: flex;
     justify-content: space-between;
   }
+
   .featured__header-left {
     width: 55%;
     margin-right: 3rem;
   }
+
   .featured__header-right {
     padding-top: 50px;
     width: $good-pic-width;
+
     .inner {
       padding: 0;
     }
+
     img {
       height: 250px;
       float: right;
       padding-right: 1.2em;
     }
   }
+
   .featured-projects__caption p {
     width: 80%;
   }
@@ -118,19 +135,24 @@
     justify-content: space-around;
     flex-wrap: wrap;
   }
+
   .featured-projects__module {
     width: $good-pic-width;
   }
+
   .featured-projects__module .inner {
     display: block;
     padding: 0;
+
     .featured-projects__image {
       min-width: $good-pic-width;
     }
   }
+
   .featured-projects__caption p {
     width: 100%;
   }
+  
   .social-icons {
     width: 95%;
   }
