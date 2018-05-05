@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   color: #3a3a3a;
   background: #fff;
 }
@@ -62,7 +62,7 @@ a:hover {
 
 /* main header styles */
 #main-header {
-  padding: 1em 0 1em;
+  padding: .70em 0;
   margin-bottom: 1em;
   text-align: center;
   border-bottom-left-radius: 2px;
@@ -75,6 +75,8 @@ a:hover {
 
 #main-header .logo {
   color: white;
+  font-family: "Indie Flower", Arial, sans-serif;
+  margin: 0;
 }
 
 /* about-me section styles */
@@ -304,6 +306,9 @@ blockquote .author {
 @media screen and (min-width: 1152px) {
   #main-header {
     margin-bottom: 3.5em;
+  }
+  #main-header .logo {
+    font-size: 3em;
   }
   .about-me .inner {
     -webkit-box-orient: horizontal;
